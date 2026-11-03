@@ -1,0 +1,20 @@
+DaanGives • CSR Connect
+=======================
+New CSR Support Request Received
+
+Hello {{ recipient_name }},
+
+A new CSR Expression of Interest (Support Request) has been submitted for your requirement.
+
+Details:
+- CSR Requirement: {{ requirement_title }}
+- Company: {{ company_name }}
+- Proposed Funding: {{ proposed_funding }}
+- Request ID: {{ request_id }}
+
+Review the support request on the portal:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

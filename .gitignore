@@ -1,0 +1,27 @@
+# Virtual Environment
+env_daan/
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# Media and Static Files
+media/
+staticfiles/
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+DaanGives • CSR Connect
+=======================
+Milestone Evidence Ready for Verification
+
+Hello {{ recipient_name }},
+
+The non-profit partner has submitted proof of execution / evidence documents for a project milestone.
+
+Details:
+- Milestone: {{ milestone_title }}
+- CSR Requirement: {{ requirement_title }}
+- NGO Partner: {{ ngo_name }}
+- Target Completion Date: {{ target_completion_date }}
+- Completion Percentage: {{ completion_percentage }}%
+
+Please log in to your company CSR portal to review the submitted evidence:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

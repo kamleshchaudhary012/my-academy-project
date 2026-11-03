@@ -1,0 +1,19 @@
+DaanGives • CSR Connect
+=======================
+CSR Support Request Update
+
+Hello {{ recipient_name }},
+
+The non-profit partner has reviewed your Support Request for "{{ requirement_title }}" and was unable to proceed at this time.
+
+Details:
+- Requirement: {{ requirement_title }}
+- NGO Partner: {{ ngo_name }}
+{% if rejection_reason %}- Feedback / Reason: {{ rejection_reason }}{% endif %}
+
+You can discover other matching high-impact requirements on the portal:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

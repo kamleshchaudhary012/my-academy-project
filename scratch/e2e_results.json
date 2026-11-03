@@ -1,0 +1,290 @@
+[
+  {
+    "id": "PRE-01",
+    "scenario": "Admin Auth",
+    "action": "Log in as dedicated test admin",
+    "expected": "HTTP 200 with JWT access token",
+    "actual": "Success",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A01",
+    "scenario": "NGO Registration",
+    "action": "Register new NGO user account",
+    "expected": "HTTP 201 Created",
+    "actual": "HTTP 201",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A02",
+    "scenario": "NGO Registration Status",
+    "action": "Verify initial NGO status is DRAFT and never auto-approved",
+    "expected": "status=DRAFT, is_active=False",
+    "actual": "status=DRAFT, is_active=False",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A03",
+    "scenario": "Government Verification State",
+    "action": "Verify initial gov check defaults to manual verification required",
+    "expected": "gov_check_status=MANUAL_VERIFICATION_REQUIRED",
+    "actual": "gov_check_status=MANUAL_VERIFICATION_REQUIRED",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A04",
+    "scenario": "NGO Submission",
+    "action": "Submit NGO application and confirm status is SUBMITTED (not approved)",
+    "expected": "status=SUBMITTED, is_active=False",
+    "actual": "status=SUBMITTED, is_active=False",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A05",
+    "scenario": "Admin Review Start",
+    "action": "Admin transitions NGO from SUBMITTED to UNDER_REVIEW",
+    "expected": "status=UNDER_REVIEW",
+    "actual": "status=UNDER_REVIEW",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A06",
+    "scenario": "Correction Request",
+    "action": "Admin requests correction from NGO (UNDER_REVIEW -> CORRECTION_REQUIRED)",
+    "expected": "status=CORRECTION_REQUIRED",
+    "actual": "status=CORRECTION_REQUIRED",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A07",
+    "scenario": "NGO Resubmission",
+    "action": "NGO corrects profile and resubmits (CORRECTION_REQUIRED -> SUBMITTED)",
+    "expected": "status=SUBMITTED",
+    "actual": "status=SUBMITTED",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A08",
+    "scenario": "Gov Check Non-Elevation",
+    "action": "Recording passing Gov Check does NOT automatically approve NGO",
+    "expected": "status remains UNDER_REVIEW",
+    "actual": "status=UNDER_REVIEW",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-A09",
+    "scenario": "Admin Final Approval",
+    "action": "Admin approves NGO for general charitable platform operations",
+    "expected": "status=APPROVED, is_active=True",
+    "actual": "status=APPROVED, is_active=True",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-B01",
+    "scenario": "Company Registration & Submit",
+    "action": "Company submits profile and status becomes PENDING_VERIFICATION (not approved)",
+    "expected": "verification_status=PENDING_VERIFICATION",
+    "actual": "status=PENDING_VERIFICATION",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-B02",
+    "scenario": "Unapproved Company Restricted Action",
+    "action": "Unapproved company cannot perform restricted CSR transactions (create support request)",
+    "expected": "HTTP 403 Forbidden",
+    "actual": "HTTP 403",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-B03",
+    "scenario": "Company Gov Check Non-Elevation",
+    "action": "Passing Company Gov Check preserves PENDING_VERIFICATION status",
+    "expected": "verification_status=PENDING_VERIFICATION",
+    "actual": "status=PENDING_VERIFICATION",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-B04",
+    "scenario": "Company Correction Request",
+    "action": "Admin requests correction on Company (PENDING_VERIFICATION -> CORRECTION_REQUIRED)",
+    "expected": "verification_status=CORRECTION_REQUIRED",
+    "actual": "CORRECTION_REQUIRED",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-B05",
+    "scenario": "Company Resubmission",
+    "action": "Company resubmission transitions status back to PENDING_VERIFICATION",
+    "expected": "verification_status=PENDING_VERIFICATION",
+    "actual": "PENDING_VERIFICATION",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-B06",
+    "scenario": "Company Admin Approval",
+    "action": "Admin approves CSR company (PENDING_VERIFICATION -> APPROVED)",
+    "expected": "verification_status=APPROVED",
+    "actual": "APPROVED",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-C01",
+    "scenario": "CSR-Ineligible Blocked",
+    "action": "Approved non-CSR NGO cannot create CSR requirements",
+    "expected": "HTTP 403 Forbidden",
+    "actual": "HTTP 403",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-C02",
+    "scenario": "Self-Declared CSR-1 Badge Integrity",
+    "action": "Self-declared CSR-1 displays has_csr_1=True but is_csr_verified=False (amber unverified badge)",
+    "expected": "has_csr_1=True, is_csr_verified=False",
+    "actual": "has_csr_1=True, is_csr_verified=False",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-C03",
+    "scenario": "Verified CSR-1 Badge Integrity",
+    "action": "Admin-verified CSR NGO displays is_csr_verified=True (emerald shield badge)",
+    "expected": "is_csr_verified=True",
+    "actual": "is_csr_verified=True",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-C04",
+    "scenario": "Verified NGO CSR Requirement Creation",
+    "action": "Admin-verified CSR NGO can successfully create CSR requirement",
+    "expected": "HTTP 201 Created",
+    "actual": "HTTP 201 Created",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-D01",
+    "scenario": "Project CSR Readiness Decoupling",
+    "action": "Verified project of non-CSR NGO has status=VERIFIED but is_csr_ready=False",
+    "expected": "status=VERIFIED, is_csr_ready=False",
+    "actual": "status=VERIFIED, is_csr_ready=False",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-D02",
+    "scenario": "CSR-Ready Project Verification",
+    "action": "Verified project of CSR-verified NGO has is_csr_ready=True",
+    "expected": "status=VERIFIED, is_csr_ready=True",
+    "actual": "status=VERIFIED, is_csr_ready=True",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-D03",
+    "scenario": "Marketplace Discovery",
+    "action": "Approved CSR company discovers approved CSR requirement in marketplace",
+    "expected": "Requirement present in marketplace",
+    "actual": "Found in marketplace",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-D04",
+    "scenario": "Corporate Support Request",
+    "action": "Approved company issues formal CSR support request to verified NGO",
+    "expected": "HTTP 201 Created",
+    "actual": "HTTP 201 Created",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-D05",
+    "scenario": "Bilateral Partnership Creation",
+    "action": "Verified NGO accepts support request, creating bilateral CSR partnership",
+    "expected": "HTTP 200 with partnership object",
+    "actual": "Created partnership 790ab9a0-ad77-4d22-9195-f2a217d283d7",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-D06",
+    "scenario": "Direct Bank Disbursement Entry",
+    "action": "Approved company records direct corporate bank transfer disbursement proof",
+    "expected": "HTTP 201 Created",
+    "actual": "HTTP 201 Created",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-E01",
+    "scenario": "Admin Self-Registration Block",
+    "action": "Direct registration API rejects role='ADMIN' payload",
+    "expected": "HTTP 400 Bad Request",
+    "actual": "HTTP 400 (Self-registration strictly prohibited)",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-E02",
+    "scenario": "NGO Self-Approval Block",
+    "action": "NGO user calling admin approve API receives HTTP 403 Forbidden",
+    "expected": "HTTP 403 Forbidden",
+    "actual": "HTTP 403 Forbidden",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-E03",
+    "scenario": "Company Self-Approval Block",
+    "action": "Company user calling admin approve API receives HTTP 403 Forbidden",
+    "expected": "HTTP 403 Forbidden",
+    "actual": "HTTP 403 Forbidden",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-E04",
+    "scenario": "Tenant Isolation",
+    "action": "NGO A cannot access or see private documents of NGO B",
+    "expected": "Zero document overlap between tenants",
+    "actual": "0 shared documents",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-E05",
+    "scenario": "Unauthenticated Protection",
+    "action": "Unauthenticated request to protected CSR dashboard returns HTTP 401",
+    "expected": "HTTP 401 Unauthorized",
+    "actual": "HTTP 401 Unauthorized",
+    "status": "PASS",
+    "notes": ""
+  },
+  {
+    "id": "TC-E06",
+    "scenario": "Pre-existing Data Integrity",
+    "action": "Pre-existing production-like accounts remain intact without alteration",
+    "expected": "root@gmail.com remains active superuser",
+    "actual": "Verified intact",
+    "status": "PASS",
+    "notes": ""
+  }
+]

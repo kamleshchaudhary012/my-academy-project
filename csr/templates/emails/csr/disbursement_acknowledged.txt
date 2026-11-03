@@ -1,0 +1,21 @@
+DaanGives • CSR Connect
+=======================
+NGO Payment Receipt Status Update
+
+Hello {{ recipient_name }},
+
+The recipient NGO partner has updated the acknowledgement status for a reported corporate bank transfer.
+
+Details:
+- CSR Requirement: {{ requirement_title }}
+- NGO Partner: {{ ngo_name }}
+- Amount: {{ amount_formatted }}
+- Acknowledgement Status: {{ acknowledgement_status }}
+{% if acknowledgement_notes %}- Notes: {{ acknowledgement_notes }}{% endif %}
+
+Please log in to your company CSR portal to view the updated reconciliation dossier:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

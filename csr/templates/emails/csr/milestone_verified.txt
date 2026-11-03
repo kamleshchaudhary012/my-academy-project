@@ -1,0 +1,21 @@
+DaanGives • CSR Connect
+=======================
+Milestone Successfully Verified!
+
+Hello {{ recipient_name }},
+
+The corporate partner has verified the submitted evidence for milestone "{{ milestone_title }}".
+
+Details:
+- Milestone: {{ milestone_title }}
+- CSR Requirement: {{ requirement_title }}
+- Company: {{ company_name }}
+- Status: VERIFIED
+- Completion Percentage: {{ completion_percentage }}%
+
+Track partnership progress on your NGO dashboard:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

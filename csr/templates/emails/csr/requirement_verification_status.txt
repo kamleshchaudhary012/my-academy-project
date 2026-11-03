@@ -1,0 +1,23 @@
+DaanGives • CSR Connect
+=======================
+CSR Requirement Review: {{ status }}
+
+Hello {{ recipient_name }},
+
+The compliance review status for your CSR Requirement proposal "{{ requirement_title }}" has been updated.
+
+Details:
+- CSR Requirement: {{ requirement_title }}
+- Status: {{ status }}
+{% if admin_notes %}- Notes / Feedback: {{ admin_notes }}{% endif %}
+
+{% if status == 'OPEN_FOR_CSR' or status == 'APPROVED' %}Your CSR Requirement is now published and active on the marketplace for corporate matching!
+{% elif status == 'CHANGES_REQUESTED' %}Please review the requested updates on your NGO dashboard and re-submit for review.
+{% endif %}
+
+View the requirement on the portal:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

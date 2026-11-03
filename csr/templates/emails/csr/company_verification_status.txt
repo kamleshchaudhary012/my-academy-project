@@ -1,0 +1,23 @@
+DaanGives • CSR Connect
+=======================
+Company CSR Verification: {{ status }}
+
+Hello {{ recipient_name }},
+
+Your company profile verification status has been updated by the platform compliance team.
+
+Details:
+- Company: {{ company_name }}
+- Verification Status: {{ status }}
+{% if admin_notes %}- Notes / Feedback: {{ admin_notes }}{% endif %}
+
+{% if status == 'APPROVED' %}Your company profile is now verified! You can explore open CSR requirements and submit Expressions of Interest.
+{% elif status == 'CHANGES_REQUESTED' %}Please review the requested updates and re-submit your documentation.
+{% endif %}
+
+Access your dashboard:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

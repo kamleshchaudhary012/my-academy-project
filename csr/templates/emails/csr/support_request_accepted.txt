@@ -1,0 +1,20 @@
+DaanGives • CSR Connect
+=======================
+CSR Support Request Accepted
+
+Hello {{ recipient_name }},
+
+Your CSR Support Request for the requirement "{{ requirement_title }}" has been accepted by {{ ngo_name }}.
+
+Details:
+- Requirement: {{ requirement_title }}
+- NGO Partner: {{ ngo_name }}
+- Agreed Grant Amount: {{ agreed_funding }}
+- Partnership Reference: {{ partnership_id }}
+
+A bilateral CSR Partnership has been established. You can coordinate milestone execution on the portal:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

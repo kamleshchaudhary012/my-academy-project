@@ -1,0 +1,22 @@
+DaanGives • CSR Connect
+=======================
+Bank Transfer Evidence Review Decision
+
+Hello {{ recipient_name }},
+
+The administrative evidence review for a reported corporate bank transfer has been recorded.
+
+Details:
+- CSR Requirement: {{ requirement_title }}
+- Amount: {{ amount_formatted }}
+- Review Decision: {{ review_decision }}
+{% if review_notes %}- Remarks: {{ review_notes }}{% endif %}
+
+Note: Administrative evidence verification confirms receipt documentation on file and does not constitute independent banking API confirmation.
+
+Please log in to view the financial dossier:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

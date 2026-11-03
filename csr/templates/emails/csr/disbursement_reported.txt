@@ -1,0 +1,21 @@
+DaanGives • CSR Connect
+=======================
+Direct Bank Transfer Advice Reported
+
+Hello {{ recipient_name }},
+
+Your corporate CSR partner has reported a direct off-platform bank wire transfer for your bilateral CSR partnership.
+
+Details:
+- CSR Requirement: {{ requirement_title }}
+- Corporate Partner: {{ company_name }}
+- Reported Amount: {{ amount_formatted }}
+- Payment Mode: {{ payment_mode }}
+- Transfer Date: {{ disbursement_date }}
+
+Please check your organization's bank account to verify credit. Once verified, log in to confirm receipt or report any discrepancy:
+{{ cta_url }}
+
+---
+DaanGives CSR Connect • Transparent Corporate Philanthropy
+Contact: support@daangives.org

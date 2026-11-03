@@ -1,0 +1,4942 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "xlxdv8xv9n0wqp5tdvbsu4686ycaju1q",
+  "fields": {
+    "session_data": ".eJxVjjkOwjAQRe_iGlseL2Obkp4zRONlCIsSKUuFuDuJlALq_97Tf4uO1qXv1rlN3b2KsygRWVtbZeZI0rmsZa4JZQjFA8YMrFmcfrVM5dmG3a0PGm6jKuOwTPesdkQd66yuY22vy8H-BXqa-832KTF7iramACaRDa4QGUA0rrH3VfuIYLwBaziTA6sxk0nbLQiOUHy-9Hw_8g:1x1GkT:upXe8KNQeGm4USnRilkCGpIdbnl0WIzIbDCVwGQjVks",
+    "expire_date": "2026-09-15T05:09:29.092Z"
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$VW12Czt7o7ovYjhdBV3VKy$Y9bf7uDb/n6mAvwSjr4Vq/P7gNMM3aslxkBM8ZGVfvs=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:37.459Z",
+    "email": "admin1@demo.local",
+    "full_name": "Admin One",
+    "phone": null,
+    "profile_image": "",
+    "role": "ADMIN",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:37.459Z",
+    "updated_at": "2026-09-27T16:16:37.577Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$bdn9iL7zNDp343L6h2mwyO$22STANxN1E0saGSfn8G4V5nS8ZSLPmyk+lF43Lo5vy8=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:37.583Z",
+    "email": "admin2@demo.local",
+    "full_name": "Admin Two",
+    "phone": null,
+    "profile_image": "",
+    "role": "ADMIN",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:37.583Z",
+    "updated_at": "2026-09-27T16:16:37.698Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$sWT8fg21Krp2nf3EWn4Wyr$3q+VwjD4ql7Q49MyWfArTq2i4DyqsKEWQfbwpfEv670=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-08-25T05:59:52.290Z",
+    "email": "kj@gmail.com",
+    "full_name": "kamlesh chaudhary",
+    "phone": "7016714801",
+    "profile_image": "",
+    "role": "DONOR",
+    "is_email_verified": false,
+    "created_at": "2026-08-25T05:59:52.424Z",
+    "updated_at": "2026-08-25T05:59:52.424Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$ga9TsaHz4Gq11gDjtfyd3C$sEgcJDZUnZdnR2vEmnvDA2vQdtka5lqsMPDZwy6dX6A=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:37.700Z",
+    "email": "donor1@demo.local",
+    "full_name": "Alice Donor",
+    "phone": null,
+    "profile_image": "",
+    "role": "DONOR",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:37.700Z",
+    "updated_at": "2026-09-27T16:16:37.822Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$znvlGkDRKvTNpFWvBhw0Xp$BGkiUtbHw7sga8MdfgfNzx2W83VyY/Znu9QX0QkVfpo=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-20T14:07:37.924Z",
+    "email": "kk@gmail.com",
+    "full_name": "pysquad",
+    "phone": "7016714801",
+    "profile_image": "",
+    "role": "COMPANY",
+    "is_email_verified": false,
+    "created_at": "2026-09-20T14:07:38.046Z",
+    "updated_at": "2026-09-20T14:07:38.046Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$BrpPPZLRysPgtHV6tHo6oG$IoxHaY41lGW1ePYbOUZO7fttCXNRwrJIJSEyGAxMUW8=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:37.944Z",
+    "email": "donor3@demo.local",
+    "full_name": "Charlie Donor",
+    "phone": null,
+    "profile_image": "",
+    "role": "DONOR",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:37.944Z",
+    "updated_at": "2026-09-27T16:16:38.062Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$nDbVTfujYmCWYmcQPa8mw2$tLuQfvOnEED+HKDXLD9L91GXwVSDPI8+2WO2j0C1aLo=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-15T08:22:29.388Z",
+    "email": "chaudharyboy12@gmail.com",
+    "full_name": "NUUUAR",
+    "phone": "7016714801",
+    "profile_image": "",
+    "role": "NGO",
+    "is_email_verified": false,
+    "created_at": "2026-09-15T08:22:29.515Z",
+    "updated_at": "2026-09-15T08:22:29.515Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$WH7GixbPTC1awk7FJwsSqE$Vs8mW+3+SZ9bQZdUmMRT6R9xHhKFb6cRijODUhWjM20=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-08-25T18:29:13.862Z",
+    "email": "chaudharyboy012@gmail.com",
+    "full_name": "Kamlesh Chaudhary",
+    "phone": "+919876543210",
+    "profile_image": "",
+    "role": "DONOR",
+    "is_email_verified": false,
+    "created_at": "2026-08-25T18:29:13.863Z",
+    "updated_at": "2026-08-25T18:29:13.983Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$5t4N2sfLpLnh9WP1fqshZL$oMchBngDIPgxit/Sn2sSL7c4qnzES0IDB0e6jIWrlP4=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-08-25T17:44:41.933Z",
+    "email": "chaudharykamlesh185@gmail.com",
+    "full_name": "kamlesh chaudhary",
+    "phone": "7016714801",
+    "profile_image": "donor_avatars/6bbef0dc-785d-4f6d-9081-2723a6268d27/93d0c6642d36.jpg",
+    "role": "DONOR",
+    "is_email_verified": false,
+    "created_at": "2026-08-25T17:44:42.085Z",
+    "updated_at": "2026-09-27T08:58:25.113Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$SSd22Fp0qPxOnPLnVc5Elt$CdpW3MAIiBtcHT8Qb3xts6cwi2ag5MypwqKpPIF5SIY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:38.424Z",
+    "email": "company2@demo.local",
+    "full_name": "ABC Corp Contact",
+    "phone": null,
+    "profile_image": "",
+    "role": "COMPANY",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:38.424Z",
+    "updated_at": "2026-09-27T16:16:38.540Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$fdx8Yo3mSFBiRP9VlnFUrD$sQB+ZRKIBh9+j2tXlUntvqp5Wv1xo+IqG77QgzaLjHE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:38.063Z",
+    "email": "ngo1@demo.local",
+    "full_name": "Education Trust Contact",
+    "phone": null,
+    "profile_image": "",
+    "role": "NGO",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:38.063Z",
+    "updated_at": "2026-09-27T16:16:38.180Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$qGAkuBkAjajlQCpmrLTrCg$4Y8rzVCVXOpgSZmKwMnd60i9EZjGW8uAX5JHGRBnLOI=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:38.303Z",
+    "email": "company1@demo.local",
+    "full_name": "KK Ind Contact",
+    "phone": null,
+    "profile_image": "",
+    "role": "COMPANY",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:38.303Z",
+    "updated_at": "2026-09-27T16:16:38.420Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$GQuWGsSorUwAyvCyZaNgr7$6uc8BLOWBOUj7m8Wc95o1yC80bn1Btu9NwX48cKteB0=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:38.184Z",
+    "email": "ngo2@demo.local",
+    "full_name": "Health Foundation Contact",
+    "phone": null,
+    "profile_image": "",
+    "role": "NGO",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:38.184Z",
+    "updated_at": "2026-09-27T16:16:38.301Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$Td3ErOWkaawimTFuc6ynk2$DsJDqs0D+6gEoYbb2kOqfZnckvlwHcjC61NeUsSZ4FM=",
+    "last_login": "2026-09-01T05:09:29.091Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-08-25T16:58:03.122Z",
+    "email": "root@gmail.com",
+    "full_name": "",
+    "phone": null,
+    "profile_image": "",
+    "role": "ADMIN",
+    "is_email_verified": false,
+    "created_at": "2026-08-25T16:58:03.268Z",
+    "updated_at": "2026-08-25T16:58:03.268Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$sICpI8DUdtSBIAFYHU2Lrp$l0s0nQVyysSLqqytnEauW3Ci0tWGwaaoYqTAGw1tyk4=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-09-27T16:16:37.823Z",
+    "email": "donor2@demo.local",
+    "full_name": "Bob Donor",
+    "phone": null,
+    "profile_image": "",
+    "role": "DONOR",
+    "is_email_verified": false,
+    "created_at": "2026-09-27T16:16:37.823Z",
+    "updated_at": "2026-09-27T16:16:37.943Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$2MCUJr71Eoeuzvs80uwoI2$YfdcQ0M8GnE4V8aMhB3qKSLhcMVo6Z463rJ+Hn/Fx7U=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-08-25T19:21:53.658Z",
+    "email": "kjchaudhary480@gmail.com",
+    "full_name": "kamlesh chaudhary",
+    "phone": "7016714801",
+    "profile_image": "",
+    "role": "NGO",
+    "is_email_verified": false,
+    "created_at": "2026-08-25T19:21:53.809Z",
+    "updated_at": "2026-08-25T19:21:53.809Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$OdochdAhbPfGVTHc8VdjsJ$DlkX0+Nldyzc5Bw7WG2rf8xsouiDgDZy2eMbY+2ZgHE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-08-28T03:12:25.389Z",
+    "email": "njchaudhary232@gmail.com",
+    "full_name": "NJ Patel",
+    "phone": "9327784506",
+    "profile_image": "",
+    "role": "DONOR",
+    "is_email_verified": false,
+    "created_at": "2026-08-28T03:12:25.545Z",
+    "updated_at": "2026-08-28T03:12:25.545Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.donorprofile",
+  "pk": "91464210-467f-4731-9174-e9ba43900fc7",
+  "fields": {
+    "user": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "address_line1": "gvp",
+    "address_line2": "VIDYAPITH AHMEDABAD - 380009",
+    "city": "ahemdabad",
+    "state": "gujarat",
+    "pincode": "380009",
+    "country": "India",
+    "pan_number": "",
+    "entity_type": "LLP",
+    "created_at": "2026-09-02T15:33:25.494Z",
+    "updated_at": "2026-09-27T08:58:25.116Z"
+  }
+},
+{
+  "model": "users.donorprofile",
+  "pk": "e0e981f1-b17f-43b7-a2c6-29eb04f1e122",
+  "fields": {
+    "user": [
+      "donor1@demo.local"
+    ],
+    "address_line1": "",
+    "address_line2": "",
+    "city": "",
+    "state": "",
+    "pincode": "",
+    "country": "India",
+    "pan_number": "ABCDE1234F",
+    "entity_type": "INDIVIDUAL",
+    "created_at": "2026-10-09T15:30:27.523Z",
+    "updated_at": "2026-10-09T15:30:27.526Z"
+  }
+},
+{
+  "model": "ngo.ngoprofile",
+  "pk": "007bfb0f-67c2-4136-a904-bb6958bad6dd",
+  "fields": {
+    "user": [
+      "chaudharyboy12@gmail.com"
+    ],
+    "legal_name": "NewNgo",
+    "display_name": "shree nath seva",
+    "gujarati_name": "",
+    "slug": "shree-nath-seva",
+    "category": "WOMEN_EMPOWERMENT",
+    "description": "ask aevi sansta che jya loko aavi ne potanu gam - bija Village ma thodi moti sahay kari sakhe che ...\n🙏 tne mate che",
+    "mission_statement": "",
+    "year_established": 2025,
+    "website": "",
+    "official_email": "notyourtype@gmail.com",
+    "official_phone": "7016714801",
+    "logo": "",
+    "cover_image": "",
+    "status": "DRAFT",
+    "is_active": false,
+    "verified_at": null,
+    "created_at": "2026-09-15T08:27:36.654Z",
+    "updated_at": "2026-09-16T07:03:56.515Z"
+  }
+},
+{
+  "model": "ngo.ngoprofile",
+  "pk": "bbd9d153-b849-473f-b66e-e738d525a411",
+  "fields": {
+    "user": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "legal_name": "Education trust",
+    "display_name": "Education trust foundation",
+    "gujarati_name": "",
+    "slug": "education-trust-foundation",
+    "category": "EDUCATION",
+    "description": "this is one of the first ngo regisertion and check it how it work properly --?\nthen i can show me my db for this connetnt have.................",
+    "mission_statement": "",
+    "year_established": 2004,
+    "website": "",
+    "official_email": "kjchaudhary480@gmail.com",
+    "official_phone": "7016714801",
+    "logo": "ngo_logos/bbd9d153-b849-473f-b66e-e738d525a411/beffbc5c-d1ef-41bb-954a-8b71637909a7.jpg",
+    "cover_image": "",
+    "status": "APPROVED",
+    "is_active": true,
+    "verified_at": "2026-08-28T05:02:40.664Z",
+    "created_at": "2026-08-25T19:25:57.886Z",
+    "updated_at": "2026-09-17T09:55:40.594Z"
+  }
+},
+{
+  "model": "ngo.ngoprofile",
+  "pk": "e3aa3a98-bd1c-44a1-8f0e-39cc4b592eeb",
+  "fields": {
+    "user": [
+      "ngo2@demo.local"
+    ],
+    "legal_name": "Health Foundation",
+    "display_name": "",
+    "gujarati_name": "",
+    "slug": "health-foundation",
+    "category": "",
+    "description": "",
+    "mission_statement": "",
+    "year_established": 2015,
+    "website": null,
+    "official_email": "",
+    "official_phone": "",
+    "logo": "",
+    "cover_image": "",
+    "status": "APPROVED",
+    "is_active": false,
+    "verified_at": null,
+    "created_at": "2026-09-27T16:16:38.302Z",
+    "updated_at": "2026-09-27T16:16:38.302Z"
+  }
+},
+{
+  "model": "ngo.ngoprofile",
+  "pk": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+  "fields": {
+    "user": [
+      "ngo1@demo.local"
+    ],
+    "legal_name": "Education Trust",
+    "display_name": "",
+    "gujarati_name": "",
+    "slug": "education-trust",
+    "category": "",
+    "description": "",
+    "mission_statement": "",
+    "year_established": 2010,
+    "website": null,
+    "official_email": "",
+    "official_phone": "",
+    "logo": "",
+    "cover_image": "",
+    "status": "APPROVED",
+    "is_active": true,
+    "verified_at": null,
+    "created_at": "2026-09-27T16:16:38.182Z",
+    "updated_at": "2026-09-27T16:16:38.182Z"
+  }
+},
+{
+  "model": "ngo.ngoaddress",
+  "pk": "c01eee7b-4b5f-4d23-b336-521823eaea85",
+  "fields": {
+    "ngo": "007bfb0f-67c2-4136-a904-bb6958bad6dd",
+    "address_line1": "gvp swiming pool",
+    "address_line2": "",
+    "city": "ahemabad",
+    "district": "Sabarmati",
+    "state": "Gujarat",
+    "pincode": "380009",
+    "service_areas": "GVp",
+    "latitude": null,
+    "longitude": null,
+    "created_at": "2026-09-16T07:04:50.121Z",
+    "updated_at": "2026-09-16T07:04:50.121Z"
+  }
+},
+{
+  "model": "ngo.ngoaddress",
+  "pk": "d35e7456-6c68-48da-9f78-0ba5fae8f6ad",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "address_line1": "Gujarat Gas Circle",
+    "address_line2": "",
+    "city": "Surat",
+    "district": "surat",
+    "state": "Gujarat",
+    "pincode": "395009",
+    "service_areas": "",
+    "latitude": null,
+    "longitude": null,
+    "created_at": "2026-08-25T19:26:20.626Z",
+    "updated_at": "2026-08-25T19:45:08.230Z"
+  }
+},
+{
+  "model": "ngo.ngolegalinfo",
+  "pk": "402d7681-5c2f-45d7-af86-11f5b21b161e",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "organisation_type": "TRUST",
+    "registering_authority": "charaty surat",
+    "registration_number": "e/12345/ahemdabad",
+    "darpan_id": "mh/8757/2943",
+    "pan_number": "CKUPC8425M",
+    "registration_state": "Gujarat",
+    "chief_trustee_name": "Naresh patel",
+    "chief_trustee_designation": "trustee",
+    "has_12a": false,
+    "twelve_a_number": "",
+    "twelve_a_validity": null,
+    "has_80g": false,
+    "eighty_g_number": "",
+    "eighty_g_validity": null,
+    "has_fcra": false,
+    "fcra_number": "",
+    "fcra_validity": null,
+    "created_at": "2026-08-25T19:46:44.393Z",
+    "updated_at": "2026-08-25T19:46:44.393Z"
+  }
+},
+{
+  "model": "ngo.ngobankinfo",
+  "pk": "ba984192-a8e7-4d0b-9947-25e87448c1be",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "bank_name": "sbi",
+    "account_holder_name": "kamlesh chaudhary",
+    "account_number": "41526212439",
+    "ifsc_code": "SBIN0002628",
+    "branch_name": "arshram",
+    "account_type": "SAVINGS",
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "created_at": "2026-08-25T19:47:56.835Z",
+    "updated_at": "2026-08-25T19:47:56.835Z"
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "07be4f88-38a4-4cb1-87c0-004f0d283a50",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "CANCELLED_CHEQUE",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/CANCELLED_CHEQUE/ddc2174b-d765-4c0c-b6ef-e_YdNyz7C.jpg",
+    "original_filename": "1695913861989.jpg",
+    "file_size_bytes": 1156999,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:49:03.494Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "19a1c510-1344-4aee-84fb-071b4f8c4e5d",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "TWELVE_A_CERT",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/TWELVE_A_CERT/9c2e6e05-1008-4a24-b361-7ddc47114e7c.jpg",
+    "original_filename": "1695913861929.jpg",
+    "file_size_bytes": 1739709,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:46.760Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "375d2f2c-3165-4acc-a6db-645a793e88e7",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "BANK_PASSBOOK",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/BANK_PASSBOOK/4be19050-156b-40ad-ae81-48f768f4c37d.jpg",
+    "original_filename": "1695913861981.jpg",
+    "file_size_bytes": 960556,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:56.693Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "38dea628-31e5-4a12-be93-4e31498b7e4e",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "DARPAN_CERTIFICATE",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/DARPAN_CERTIFICATE/c8aee714-f1ef-4dfd-a16e_ExvYCYk.jpg",
+    "original_filename": "1695913861940.jpg",
+    "file_size_bytes": 1900505,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:42.188Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "39677506-45fe-45c1-970e-0a9934ec1f5a",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "AUDITED_FINANCIALS",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/AUDITED_FINANCIALS/5dd09046-2ae5-46cc-8b73_10KWr39.jpg",
+    "original_filename": "1695913861961.jpg",
+    "file_size_bytes": 946631,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:59.690Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "5a808b77-a942-40bc-8aaa-9c552b9f487b",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "PAN_CARD",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/PAN_CARD/21a3ce3b-9cbc-4043-bb9d-3bf9689fbc35.jpg",
+    "original_filename": "1695913861981.jpg",
+    "file_size_bytes": 960556,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:38.876Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "a5e84924-2a77-4ca5-8f19-4fa2a1b452d9",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "EIGHTY_G_CERT",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/EIGHTY_G_CERT/619800f9-41b5-450d-9168-7f77813df2d1.jpg",
+    "original_filename": "1695913861909.jpg",
+    "file_size_bytes": 1293300,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:54.174Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "b5542056-9fc9-4bfd-9965-112f136c9c7c",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "TRUST_DEED",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/TRUST_DEED/f85f9820-12ce-4f50-857b-116f266bc948.jpg",
+    "original_filename": "1695913861989.jpg",
+    "file_size_bytes": 1156999,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:32.416Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "be8fd93d-ad8c-4984-bd61-f73d33cb5458",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "REPRESENTATIVE_ID",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/REPRESENTATIVE_ID/274bcddd-4ebe-4d93-b401-_r8wBfqp.jpg",
+    "original_filename": "1695913861989.jpg",
+    "file_size_bytes": 1156999,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:49:06.360Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngodocument",
+  "pk": "c0e12e79-4e61-47e4-9d7a-98adfb504445",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "uploaded_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "document_type": "REGISTRATION_CERT",
+    "file": "ngo_docs/bbd9d153-b849-473f-b66e-e738d525a411/REGISTRATION_CERT/305ec860-acc3-4ba8-9571-_vQEqZ7f.jpg",
+    "original_filename": "1695913861981.jpg",
+    "file_size_bytes": 960556,
+    "mime_type": "image/jpeg",
+    "is_active": true,
+    "is_verified": false,
+    "verified_by": null,
+    "verified_at": null,
+    "rejection_reason": "",
+    "uploaded_at": "2026-08-25T19:48:35.476Z",
+    "replaced_at": null,
+    "replaces": null
+  }
+},
+{
+  "model": "ngo.ngoleadership",
+  "pk": "872a2c5b-ad10-4634-a6f2-b325ae3d39f0",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "full_name": "kamlesh chaudhary",
+    "designation": "kamlesh chaudhary",
+    "phone": "7016714801",
+    "email": "chaudharykamlesh185@gmail.com",
+    "is_primary_contact": true,
+    "is_active": true,
+    "order": 0,
+    "created_at": "2026-08-25T19:48:19.922Z",
+    "updated_at": "2026-08-25T19:48:19.922Z"
+  }
+},
+{
+  "model": "ngo.ngoverification",
+  "pk": "64bade5a-3d3e-474b-ae68-00f07b6ec83b",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "reviewed_by": null,
+    "status": "APPROVED",
+    "admin_notes": "",
+    "risk_flags": "",
+    "correction_instructions": "",
+    "rejection_reason": "",
+    "bank_correction_requested": false,
+    "resubmission_count": 0,
+    "resubmission_limit": 3,
+    "admin_reopened": false,
+    "submitted_at": "2026-08-25T19:49:11.611Z",
+    "last_submitted_at": "2026-08-25T19:49:11.611Z",
+    "review_started_at": "2026-08-25T19:53:19.763Z",
+    "decision_at": "2026-08-28T05:02:40.664Z",
+    "resubmission_deadline": null,
+    "created_at": "2026-08-25T19:25:57.896Z",
+    "updated_at": "2026-08-28T05:02:40.666Z"
+  }
+},
+{
+  "model": "ngo.ngoverification",
+  "pk": "673ebcd6-7edd-424b-b1dd-7e45eb38a9e5",
+  "fields": {
+    "ngo": "007bfb0f-67c2-4136-a904-bb6958bad6dd",
+    "reviewed_by": null,
+    "status": "PENDING",
+    "admin_notes": "",
+    "risk_flags": "",
+    "correction_instructions": "",
+    "rejection_reason": "",
+    "bank_correction_requested": false,
+    "resubmission_count": 0,
+    "resubmission_limit": 3,
+    "admin_reopened": false,
+    "submitted_at": null,
+    "last_submitted_at": null,
+    "review_started_at": null,
+    "decision_at": null,
+    "resubmission_deadline": null,
+    "created_at": "2026-09-15T08:27:36.665Z",
+    "updated_at": "2026-09-15T08:27:36.665Z"
+  }
+},
+{
+  "model": "ngo.ngoverificationhistory",
+  "pk": "0c3f25d8-94a8-4cf9-a174-21a99f0efd42",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "performed_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "actor_type": "NGO",
+    "previous_status": "DRAFT",
+    "new_status": "SUBMITTED",
+    "reason": "NGO owner submitted application for verification.",
+    "metadata": {},
+    "timestamp": "2026-08-25T19:49:11.613Z"
+  }
+},
+{
+  "model": "ngo.ngoverificationhistory",
+  "pk": "7b8fd8bd-98fa-4c86-acd6-ac56987c50e1",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "performed_by": [
+      "root@gmail.com"
+    ],
+    "actor_type": "ADMIN",
+    "previous_status": "UNDER_REVIEW",
+    "new_status": "APPROVED",
+    "reason": "Application approved by admin.",
+    "metadata": {},
+    "timestamp": "2026-08-25T19:54:05.248Z"
+  }
+},
+{
+  "model": "ngo.ngoverificationhistory",
+  "pk": "7d66f7ba-860d-488c-8b2b-e54e951cfaed",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "performed_by": [
+      "root@gmail.com"
+    ],
+    "actor_type": "ADMIN",
+    "previous_status": "APPROVED",
+    "new_status": "SUSPENDED",
+    "reason": "not properly proof it ! danger have",
+    "metadata": {},
+    "timestamp": "2026-08-28T05:01:18.775Z"
+  }
+},
+{
+  "model": "ngo.ngoverificationhistory",
+  "pk": "b6f8d002-55b4-4fbf-9099-9e12d4afb6ef",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "performed_by": [
+      "root@gmail.com"
+    ],
+    "actor_type": "ADMIN",
+    "previous_status": "SUBMITTED",
+    "new_status": "UNDER_REVIEW",
+    "reason": "Admin started review.",
+    "metadata": {},
+    "timestamp": "2026-08-25T19:53:19.767Z"
+  }
+},
+{
+  "model": "ngo.ngoverificationhistory",
+  "pk": "c3de7b9a-972a-4263-b482-4bb3adf89b99",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "performed_by": [
+      "root@gmail.com"
+    ],
+    "actor_type": "ADMIN",
+    "previous_status": "SUSPENDED",
+    "new_status": "APPROVED",
+    "reason": "oky proof valid",
+    "metadata": {},
+    "timestamp": "2026-08-28T05:02:40.667Z"
+  }
+},
+{
+  "model": "campaigns.campaign",
+  "pk": "08100cc5-4156-4abb-8b19-6cafaaa5c1c9",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "created_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "title": "kamlesh camping title have",
+    "slug": "kamlesh-camping-title-have",
+    "category": "EDUCATION",
+    "campaign_type": "MONETARY",
+    "short_description": "not summry",
+    "description": "As winter temperatures drop near freezing, hundreds of families in remote rural areas lack basic protection against the biting cold. Children and elderly members are especially vulnerable to seasonal illnesses. We aim to distribute high-quality thermal blankets directly to those in most need. Itemized Breakdown of Expenses:400 Thermal Blankets @ ₹100 = ₹40,000Transportation and Logistics = ₹7,000Distribution and Volunteers Management = ₹3,000Beneficiary Details: Low-income daily wage laborer households and local village primary school children in the remote district clusters.",
+    "target_amount": "10000.00",
+    "raised_amount": "0.00",
+    "cover_image": "",
+    "start_date": "2026-08-28",
+    "end_date": "2026-09-27",
+    "status": "CANCELLED",
+    "is_featured": false,
+    "is_active": false,
+    "submitted_at": "2026-08-31T02:55:04.550Z",
+    "reviewed_at": "2026-08-31T02:55:45.532Z",
+    "reviewed_by": [
+      "root@gmail.com"
+    ],
+    "admin_review_note": "not this type ",
+    "rejection_reason": "sorry for this\n",
+    "created_at": "2026-08-28T11:27:58.570Z",
+    "updated_at": "2026-08-31T11:23:18.472Z"
+  }
+},
+{
+  "model": "campaigns.campaign",
+  "pk": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "created_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "title": "Help 100 Children With School Education",
+    "slug": "help-100-children-with-school-education",
+    "category": "EDUCATION",
+    "campaign_type": "MONETARY",
+    "short_description": "not",
+    "description": "Detailed Campaign Appeal * (Min 30 chars)\nDetailed Campaign Appeal * (Min 30 chars)\nDetailed Campaign Appeal * (Min 30 chars)",
+    "target_amount": "100.00",
+    "raised_amount": "86.00",
+    "cover_image": "",
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-30",
+    "status": "CANCELLED",
+    "is_featured": false,
+    "is_active": false,
+    "submitted_at": "2026-08-31T03:51:59.932Z",
+    "reviewed_at": "2026-08-31T03:52:12.048Z",
+    "reviewed_by": [
+      "root@gmail.com"
+    ],
+    "admin_review_note": "",
+    "rejection_reason": "",
+    "created_at": "2026-08-31T03:51:55.882Z",
+    "updated_at": "2026-09-01T04:16:25.316Z"
+  }
+},
+{
+  "model": "campaigns.campaign",
+  "pk": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "created_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "title": "test1",
+    "slug": "test1",
+    "category": "EDUCATION",
+    "campaign_type": "MONETARY",
+    "short_description": "not have test 1 only for the checking it",
+    "description": "Detailed Campaign Appeal * (Min 30 chars)\nDetailed Campaign Appeal * (Min 30 chars)\nDetailed Campaign Appeal * (Min 30 chars)\nDetailed Campaign Appeal * (Min 30 chars)\nDetailed Campaign Appeal * (Min 30 chars)\nDetailed Campaign Appeal * (Min 30 chars)",
+    "target_amount": "20000.00",
+    "raised_amount": "31099.00",
+    "cover_image": "",
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-16",
+    "status": "ACTIVE",
+    "is_featured": false,
+    "is_active": true,
+    "submitted_at": "2026-08-31T02:54:59.684Z",
+    "reviewed_at": "2026-08-31T02:55:33.929Z",
+    "reviewed_by": [
+      "root@gmail.com"
+    ],
+    "admin_review_note": "",
+    "rejection_reason": "",
+    "created_at": "2026-08-31T02:48:34.327Z",
+    "updated_at": "2026-08-31T02:55:33.933Z"
+  }
+},
+{
+  "model": "campaigns.campaign",
+  "pk": "9be74500-8f31-4ce4-98e2-c552cda3f392",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "created_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "title": "Free Winter Blanket Drive for Rural Families",
+    "slug": "free-winter-blanket-drive-for-rural-families",
+    "category": "EDUCATION",
+    "campaign_type": "MONETARY",
+    "short_description": "Help us provide warm winter blankets to children and families in remote rural villages facing severe cold waves. Your small contribution brings physical warmth and safety.",
+    "description": "As winter temperatures drop near freezing, hundreds of families in remote rural areas lack basic protection against the biting cold. Children and elderly members are especially vulnerable to seasonal illnesses. We aim to distribute high-quality thermal blankets directly to those in most need.\n\n\nItemized Breakdown of Expenses:400 Thermal Blankets @ ₹100 = ₹40,000Transportation and Logistics = ₹7,000Distribution and Volunteers Management = ₹3,000Beneficiary Details: Low-income daily wage laborer households and local village primary school children in the remote district clusters.",
+    "target_amount": "50000.00",
+    "raised_amount": "0.00",
+    "cover_image": "",
+    "start_date": "2026-08-28",
+    "end_date": "2026-09-27",
+    "status": "SUSPENDED",
+    "is_featured": false,
+    "is_active": false,
+    "submitted_at": null,
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "admin_review_note": "",
+    "rejection_reason": "",
+    "created_at": "2026-08-28T04:46:34.632Z",
+    "updated_at": "2026-08-28T11:23:25.850Z"
+  }
+},
+{
+  "model": "campaigns.campaign",
+  "pk": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+  "fields": {
+    "ngo": "bbd9d153-b849-473f-b66e-e738d525a411",
+    "created_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "title": "test 2",
+    "slug": "test-2",
+    "category": "EDUCATION",
+    "campaign_type": "MONETARY",
+    "short_description": "kamlesh che baiii",
+    "description": "kamlesh che baiii kamlesh che baiii kamlesh che baiii kamlesh che baiii kamlesh che baiii",
+    "target_amount": "1000.00",
+    "raised_amount": "12599.00",
+    "cover_image": "campaign_covers/bbd9d153-b849-473f-b66e-e738d525a411/e0671584-69d2-4ae7-8d05-dda60d5dcd1a.jpg",
+    "start_date": "2026-09-01",
+    "end_date": "2026-10-01",
+    "status": "ACTIVE",
+    "is_featured": false,
+    "is_active": true,
+    "submitted_at": "2026-09-01T06:10:38.243Z",
+    "reviewed_at": "2026-09-01T06:11:09.408Z",
+    "reviewed_by": [
+      "root@gmail.com"
+    ],
+    "admin_review_note": "",
+    "rejection_reason": "",
+    "created_at": "2026-09-01T05:56:51.174Z",
+    "updated_at": "2026-09-01T06:11:09.416Z"
+  }
+},
+{
+  "model": "campaigns.campaign",
+  "pk": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Clean Water Pipeline for Primary School",
+    "slug": "clean-water-pipeline-for-primary-school",
+    "category": "EDUCATION",
+    "campaign_type": "MONETARY",
+    "short_description": "Clean drinking water installation for 200 children in rural school.",
+    "description": "Install water purification unit and distribution pipeline for 200 school children.",
+    "target_amount": "0.00",
+    "raised_amount": "500.00",
+    "cover_image": "",
+    "start_date": "2026-11-01",
+    "end_date": "2027-03-31",
+    "status": "ACTIVE",
+    "is_featured": false,
+    "is_active": true,
+    "submitted_at": "2026-10-09T15:36:30.285Z",
+    "reviewed_at": "2026-10-09T15:36:30.303Z",
+    "reviewed_by": [
+      "admin1@demo.local"
+    ],
+    "admin_review_note": "",
+    "rejection_reason": "",
+    "created_at": "2026-10-09T15:36:30.266Z",
+    "updated_at": "2026-10-09T15:36:30.307Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "03d3d343-e763-43c7-9b74-1f2368d05147",
+  "fields": {
+    "campaign": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "changed_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "note": "NGO submitted campaign for administrative review.",
+    "created_at": "2026-08-31T03:51:59.936Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "0497c888-701b-4d66-a434-0ce31ad7897f",
+  "fields": {
+    "campaign": "08100cc5-4156-4abb-8b19-6cafaaa5c1c9",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "REJECTED",
+    "changed_by": [
+      "root@gmail.com"
+    ],
+    "note": "Admin rejected campaign: sorry for this\n",
+    "created_at": "2026-08-28T11:58:24.617Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "07c41e01-54e0-4dda-b538-156aac7df7b0",
+  "fields": {
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "changed_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "note": "NGO submitted campaign for administrative review.",
+    "created_at": "2026-09-01T06:10:38.254Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "17e9823d-d3c8-4d84-ade2-ed2e97ac586f",
+  "fields": {
+    "campaign": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "ACTIVE",
+    "changed_by": [
+      "admin1@demo.local"
+    ],
+    "note": "Admin approved campaign for public publishing.",
+    "created_at": "2026-10-09T15:36:30.309Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "201b5fcd-b104-4448-acad-dccc326af8b9",
+  "fields": {
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "ACTIVE",
+    "changed_by": [
+      "root@gmail.com"
+    ],
+    "note": "congo for this ",
+    "created_at": "2026-08-31T02:55:33.935Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "23067664-05ac-4a16-bce7-ccc5b3717be5",
+  "fields": {
+    "campaign": "08100cc5-4156-4abb-8b19-6cafaaa5c1c9",
+    "old_status": "REJECTED",
+    "new_status": "DRAFT",
+    "changed_by": [
+      "root@gmail.com"
+    ],
+    "note": "Admin reopened campaign as DRAFT for corrections.",
+    "created_at": "2026-08-31T02:49:58.259Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "25395a2c-4ad4-490a-998d-dc19da0ac081",
+  "fields": {
+    "campaign": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "changed_by": [
+      "ngo1@demo.local"
+    ],
+    "note": "NGO submitted campaign for administrative review.",
+    "created_at": "2026-10-09T15:36:30.288Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "356fb924-7f1d-46d9-a86a-df42123937de",
+  "fields": {
+    "campaign": "08100cc5-4156-4abb-8b19-6cafaaa5c1c9",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "CHANGES_REQUESTED",
+    "changed_by": [
+      "root@gmail.com"
+    ],
+    "note": "Admin requested changes: not this type ",
+    "created_at": "2026-08-31T02:55:45.543Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "3ed18f16-c4ab-457b-8adc-df4832fab9b5",
+  "fields": {
+    "campaign": "9be74500-8f31-4ce4-98e2-c552cda3f392",
+    "old_status": "ACTIVE",
+    "new_status": "SUSPENDED",
+    "changed_by": [
+      "root@gmail.com"
+    ],
+    "note": "Admin suspended campaign appeal.",
+    "created_at": "2026-08-28T11:23:25.853Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "5b402709-d3ee-49b0-acfa-bda2a99e9852",
+  "fields": {
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "ACTIVE",
+    "changed_by": [
+      "root@gmail.com"
+    ],
+    "note": "good job",
+    "created_at": "2026-09-01T06:11:09.419Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "a8cfda3e-5748-4270-81cc-6d85bf9d0e6b",
+  "fields": {
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "changed_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "note": "NGO submitted campaign for administrative review.",
+    "created_at": "2026-08-31T02:54:59.689Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "b7223dfb-31d6-4130-8e25-284c66cb0487",
+  "fields": {
+    "campaign": "08100cc5-4156-4abb-8b19-6cafaaa5c1c9",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "changed_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "note": "NGO submitted campaign for administrative review.",
+    "created_at": "2026-08-28T11:36:05.570Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "e7bed06e-c658-4255-b2ff-1ce994e78923",
+  "fields": {
+    "campaign": "08100cc5-4156-4abb-8b19-6cafaaa5c1c9",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "changed_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "note": "NGO submitted campaign for administrative review.",
+    "created_at": "2026-08-31T02:55:04.557Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "ed3a497f-387a-4037-bde3-de0a1bad9805",
+  "fields": {
+    "campaign": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "ACTIVE",
+    "changed_by": [
+      "root@gmail.com"
+    ],
+    "note": "good job",
+    "created_at": "2026-08-31T03:52:12.056Z"
+  }
+},
+{
+  "model": "campaigns.campaignreviewhistory",
+  "pk": "f22a7d4d-3f46-4635-b846-252ba9d1445f",
+  "fields": {
+    "campaign": "08100cc5-4156-4abb-8b19-6cafaaa5c1c9",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "changed_by": [
+      "kjchaudhary480@gmail.com"
+    ],
+    "note": "NGO submitted campaign for administrative review.",
+    "created_at": "2026-08-28T11:54:03.430Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "0438f09b-f7d0-43f2-9198-5e8755181b8a",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "5000.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260902-ANLYIC",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-09-02T15:21:57.196Z",
+    "is_anonymous": false,
+    "created_at": "2026-09-02T15:21:24.766Z",
+    "updated_at": "2026-09-02T15:21:57.196Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "13de5695-b9b9-405e-978b-527ab33965ec",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "5000.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-F057QO",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:12:07.598Z",
+    "updated_at": "2026-08-31T05:12:07.598Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "1fcd54ab-4440-4267-abad-1713a41b7cbf",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+    "amount": "86.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-FE6JNH",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-08-31T05:15:38.093Z",
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:15:01.349Z",
+    "updated_at": "2026-08-31T05:15:38.093Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "26e7bf25-84fb-4c1e-9dd3-9e6ee1ea653b",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "99.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260910-DQKQGK",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-09-10T11:24:41.172Z",
+    "is_anonymous": false,
+    "created_at": "2026-09-10T11:24:16.183Z",
+    "updated_at": "2026-09-10T11:24:41.172Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "2bcc5c34-dbb7-4990-9200-e348c58bfb45",
+  "fields": {
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "campaign": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+    "amount": "500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20261009-MOWULV",
+    "pan_number": "ABCDE1234F",
+    "status": "SUCCESS",
+    "paid_at": "2026-10-09T15:55:41.583Z",
+    "is_anonymous": false,
+    "created_at": "2026-10-09T15:55:33.630Z",
+    "updated_at": "2026-10-09T15:55:41.583Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "35e45f7c-c61f-4e5a-b740-196ae87be768",
+  "fields": {
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "campaign": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+    "amount": "500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20261009-66IXUE",
+    "pan_number": "ABCDE1234F",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-10-09T15:49:38.983Z",
+    "updated_at": "2026-10-09T15:49:38.983Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "3e029998-9e56-4e7f-b4d6-287d55129159",
+  "fields": {
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "campaign": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+    "amount": "500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20261009-IQDYOY",
+    "pan_number": "ABCDE1234F",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-10-09T15:54:17.624Z",
+    "updated_at": "2026-10-09T15:54:17.624Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "4eb35fd1-fd4c-44c9-8441-554427d8447b",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "1000.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-8STYX2",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-08-31T11:20:47.003Z",
+    "is_anonymous": false,
+    "created_at": "2026-08-31T11:20:24.303Z",
+    "updated_at": "2026-08-31T11:20:47.003Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "5e0012bd-a4c2-4c5a-8a64-c4e2f870b257",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+    "amount": "10.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-DJ3DOP",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:09:41.382Z",
+    "updated_at": "2026-08-31T05:09:41.382Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "6196149e-e443-4b67-aa8a-e3713a8f2c29",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "2500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260907-N17JQQ",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-09-07T15:56:38.489Z",
+    "updated_at": "2026-09-07T15:56:38.490Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "6196f831-d1b8-47b0-9da6-bd0104f0adb2",
+  "fields": {
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20261009-JTQY13",
+    "pan_number": "ABCDE1234F",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-10-09T15:30:27.529Z",
+    "updated_at": "2026-10-09T15:30:27.529Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "6689153f-1d5e-4625-b1b1-4543acb0eafa",
+  "fields": {
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "100.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-IIXUNG",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-08-31T05:05:26.816Z",
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:05:26.454Z",
+    "updated_at": "2026-08-31T05:05:26.816Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "79dc6ee5-b543-4e61-a8d8-9b366c2339cb",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "5000.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260929-AT012Q",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-09-29T10:01:35.200Z",
+    "is_anonymous": false,
+    "created_at": "2026-09-29T10:00:51.714Z",
+    "updated_at": "2026-09-29T10:01:35.200Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "83ed5972-e3cb-4ea6-bd0f-8e0ecd877a28",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "10000.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260901-CAYD3S",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-09-01T03:49:54.324Z",
+    "is_anonymous": false,
+    "created_at": "2026-09-01T03:48:23.222Z",
+    "updated_at": "2026-09-01T03:49:54.324Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "8f8b95b9-71f7-4aff-96a4-1c9288c58b72",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "10000.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-SW8E1N",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-08-31T05:17:15.782Z",
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:16:54.470Z",
+    "updated_at": "2026-08-31T05:17:15.782Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "946918d5-03ee-4b55-849f-0c9c67d77e9e",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "10000.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260901-7EIHJD",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-09-01T03:47:28.757Z",
+    "updated_at": "2026-09-01T03:47:28.757Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "95d980b1-d55a-420c-9086-12098bea1b74",
+  "fields": {
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "10.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-JK5SOS",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:13:46.654Z",
+    "updated_at": "2026-08-31T05:13:46.655Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "a75b2334-c0c0-4059-8787-0f382966eba2",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "2500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260902-0M3UO9",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-09-02T17:01:31.401Z",
+    "updated_at": "2026-09-02T17:01:31.401Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "af337bda-53f0-4b57-b1dd-420c7aed28ff",
+  "fields": {
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "campaign": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+    "amount": "10.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-PZNOW9",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:13:46.322Z",
+    "updated_at": "2026-08-31T05:13:46.322Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "bf0ff45c-ab1a-407b-a469-30e8d8fb28bf",
+  "fields": {
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "campaign": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+    "amount": "9999.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20261009-LWJBQ3",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-10-09T10:13:50.153Z",
+    "is_anonymous": false,
+    "created_at": "2026-10-09T10:13:03.781Z",
+    "updated_at": "2026-10-09T10:13:50.154Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "e072680c-cf60-4a4d-b533-0d4ee34b4bd2",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+    "amount": "10.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260831-Z7FKW3",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-08-31T05:10:12.463Z",
+    "updated_at": "2026-08-31T05:10:12.463Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "e8e688d3-4423-4df4-932b-1deafb6ba6b0",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "2500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260927-6G7VIC",
+    "pan_number": "",
+    "status": "PENDING",
+    "paid_at": null,
+    "is_anonymous": false,
+    "created_at": "2026-09-27T06:24:22.744Z",
+    "updated_at": "2026-09-27T06:24:22.744Z"
+  }
+},
+{
+  "model": "campaigns.monetarydonation",
+  "pk": "f787c37b-f18e-47ac-9ca3-b109f1a75540",
+  "fields": {
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "campaign": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+    "amount": "2500.00",
+    "currency": "INR",
+    "receipt_number": "DG-M-20260902-ULGBOB",
+    "pan_number": "",
+    "status": "SUCCESS",
+    "paid_at": "2026-09-02T14:10:48.230Z",
+    "is_anonymous": false,
+    "created_at": "2026-09-02T14:10:14.821Z",
+    "updated_at": "2026-09-02T14:10:48.231Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "071b8204-45d8-4b07-a0ac-78729bd36355",
+  "fields": {
+    "donation": "a75b2334-c0c0-4059-8787-0f382966eba2",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TXF9PhNuj0m38Z",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "2500.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TXF9PhNuj0m38Z",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "a75b2334-c0c0-4059-8787-0f382966eba2",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20260902-0M3UO9"
+      },
+      "amount": 250000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260902-0M3UO9",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 250000,
+      "created_at": 1788368492,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-02T17:01:32.149Z",
+    "updated_at": "2026-09-02T17:01:32.149Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "0ecd1bc4-d43a-46dd-b00c-757b4c33c8de",
+  "fields": {
+    "donation": "e072680c-cf60-4a4d-b533-0d4ee34b4bd2",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWFxmYG8RzBu8j",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "10.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWFxmYG8RzBu8j",
+      "notes": {
+        "campaign_id": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+        "donation_id": "e072680c-cf60-4a4d-b533-0d4ee34b4bd2",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "Help 100 Children With School Education",
+        "receipt_number": "DG-M-20260831-Z7FKW3"
+      },
+      "amount": 1000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-Z7FKW3",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 1000,
+      "created_at": 1788153013,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:10:13.183Z",
+    "updated_at": "2026-08-31T05:10:13.183Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "18f10456-651e-492a-8f02-3bec0dbe5c8d",
+  "fields": {
+    "donation": "6689153f-1d5e-4625-b1b1-4543acb0eafa",
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWFsjtHjgNcp1M",
+    "gateway_payment_id": "pay_live_e2e_test_999",
+    "gateway_signature": "da856119c959836b21a50eac8d8cff4e2a81bef8cfec77a2e14d1f4c85b6bfbf",
+    "amount": "100.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWFsjtHjgNcp1M",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "6689153f-1d5e-4625-b1b1-4543acb0eafa",
+        "donor_email": "kj@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20260831-IIXUNG"
+      },
+      "amount": 10000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-IIXUNG",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 10000,
+      "created_at": 1788152726,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:05:26.805Z",
+    "updated_at": "2026-08-31T05:05:26.815Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "2433b79e-213e-4b40-aede-29c4b96be951",
+  "fields": {
+    "donation": "13de5695-b9b9-405e-978b-527ab33965ec",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWFzswcxVVIr9M",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "5000.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWFzswcxVVIr9M",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "13de5695-b9b9-405e-978b-527ab33965ec",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20260831-F057QO"
+      },
+      "amount": 500000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-F057QO",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 500000,
+      "created_at": 1788153132,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:12:12.644Z",
+    "updated_at": "2026-08-31T05:12:12.644Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "385e2d16-b420-414f-b1af-8443dbcb41bf",
+  "fields": {
+    "donation": "e8e688d3-4423-4df4-932b-1deafb6ba6b0",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TgxeNZgGr1cQSC",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "2500.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TgxeNZgGr1cQSC",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "e8e688d3-4423-4df4-932b-1deafb6ba6b0",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20260927-6G7VIC"
+      },
+      "amount": 250000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260927-6G7VIC",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 250000,
+      "created_at": 1790490263,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-27T06:24:23.008Z",
+    "updated_at": "2026-09-27T06:24:23.008Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "3a68d8b7-2093-48d3-8877-026ce5cb8ba0",
+  "fields": {
+    "donation": "95d980b1-d55a-420c-9086-12098bea1b74",
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWG1XpW50Y0i8e",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "10.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWG1XpW50Y0i8e",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "95d980b1-d55a-420c-9086-12098bea1b74",
+        "donor_email": "kj@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20260831-JK5SOS"
+      },
+      "amount": 1000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-JK5SOS",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 1000,
+      "created_at": 1788153226,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:13:46.911Z",
+    "updated_at": "2026-08-31T05:13:46.911Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "40632f20-1ad9-4240-8597-b75b5f02d440",
+  "fields": {
+    "donation": "8f8b95b9-71f7-4aff-96a4-1c9288c58b72",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWG4qtaqpAQnJG",
+    "gateway_payment_id": "pay_TWG4vneesGsoB5",
+    "gateway_signature": "bd0779789b98252e8e9cd04debc321f5d6199cd46bf9e79fa3854803e4aaf27b",
+    "amount": "10000.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWG4qtaqpAQnJG",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "8f8b95b9-71f7-4aff-96a4-1c9288c58b72",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20260831-SW8E1N"
+      },
+      "amount": 1000000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-SW8E1N",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 1000000,
+      "created_at": 1788153414,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:16:54.801Z",
+    "updated_at": "2026-08-31T05:17:15.780Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "48fb4b09-7214-4534-bc8f-cd1c3111578b",
+  "fields": {
+    "donation": "4eb35fd1-fd4c-44c9-8441-554427d8447b",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWMGrAskAChZEI",
+    "gateway_payment_id": "pay_TWMGytKteSD04C",
+    "gateway_signature": "fa76d966e9162c1f6fe7d18fc6612b77c3ef97bfb6c6d9644d01b10c6f21cd25",
+    "amount": "1000.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWMGrAskAChZEI",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "4eb35fd1-fd4c-44c9-8441-554427d8447b",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20260831-8STYX2"
+      },
+      "amount": 100000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-8STYX2",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 100000,
+      "created_at": 1788175226,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T11:20:24.682Z",
+    "updated_at": "2026-08-31T11:20:46.999Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "5e2d1ea5-b4c6-47d9-a48e-a0535defebdd",
+  "fields": {
+    "donation": "bf0ff45c-ab1a-407b-a469-30e8d8fb28bf",
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TllxPBLwBRyjFt",
+    "gateway_payment_id": "pay_Tllxtqh92BY8HQ",
+    "gateway_signature": "138282169a8de64a1cf948e5a53b56eb3918e827ee156e8e93d3ba72e6cadce7",
+    "amount": "9999.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TllxPBLwBRyjFt",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "bf0ff45c-ab1a-407b-a469-30e8d8fb28bf",
+        "donor_email": "kj@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20261009-LWJBQ3"
+      },
+      "amount": 999900,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20261009-LWJBQ3",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 999900,
+      "created_at": 1791540784,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-10-09T10:13:05.025Z",
+    "updated_at": "2026-10-09T10:13:50.152Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "5ed1701f-cbc9-490c-ad81-23f08982ff1b",
+  "fields": {
+    "donation": "79dc6ee5-b543-4e61-a8d8-9b366c2339cb",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_ThoPIYltaBJ1H4",
+    "gateway_payment_id": "pay_ThoPVfJ47wtMVx",
+    "gateway_signature": "19fd2a7364a361067140d717632ff26b85e35b5e1010de6e063be6ccfaad7cb2",
+    "amount": "5000.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_ThoPIYltaBJ1H4",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "79dc6ee5-b543-4e61-a8d8-9b366c2339cb",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20260929-AT012Q"
+      },
+      "amount": 500000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260929-AT012Q",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 500000,
+      "created_at": 1790676052,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-29T10:00:52.166Z",
+    "updated_at": "2026-09-29T10:01:35.197Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "72698144-ccf5-4fdf-85bb-98eb992b3222",
+  "fields": {
+    "donation": "2bcc5c34-dbb7-4990-9200-e348c58bfb45",
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TlrnJPQrrvbglW",
+    "gateway_payment_id": "pay_sim_TlrnJPQrrv",
+    "gateway_signature": "8d7a5041f0fccb784b15ddf5812bff1fc5b8ee8a247761d1615ef525f6af3633",
+    "amount": "500.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TlrnJPQrrvbglW",
+      "notes": {
+        "campaign_id": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+        "donation_id": "2bcc5c34-dbb7-4990-9200-e348c58bfb45",
+        "donor_email": "donor1@demo.local",
+        "campaign_title": "Clean Water Pipeline for Primary School",
+        "receipt_number": "DG-M-20261009-MOWULV"
+      },
+      "amount": 50000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20261009-MOWULV",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 50000,
+      "created_at": 1791561341,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-10-09T15:55:41.395Z",
+    "updated_at": "2026-10-09T15:55:41.582Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "7ad4dcaa-c534-4b0c-b604-d531538244b6",
+  "fields": {
+    "donation": "26e7bf25-84fb-4c1e-9dd3-9e6ee1ea653b",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TaJg8BekBFXk83",
+    "gateway_payment_id": "pay_TaJgGkWhw6NBmR",
+    "gateway_signature": "2f62e5b71dec53a41e9e0961f4bcb7c82fcd991831676252937a17c3c2b2d345",
+    "amount": "99.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TaJg8BekBFXk83",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "26e7bf25-84fb-4c1e-9dd3-9e6ee1ea653b",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20260910-DQKQGK"
+      },
+      "amount": 9900,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260910-DQKQGK",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 9900,
+      "created_at": 1789039457,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-10T11:24:16.558Z",
+    "updated_at": "2026-09-10T11:24:41.169Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "8419674b-4c8e-4adc-82e7-64693aa50277",
+  "fields": {
+    "donation": "1fcd54ab-4440-4267-abad-1713a41b7cbf",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWG2rOO6Rghonq",
+    "gateway_payment_id": "pay_TWG3Brb06DGXtI",
+    "gateway_signature": "5dbcf09f3644de6d92ab32fa41dbc5975834b2eef4933406d006d9e53d1c722a",
+    "amount": "86.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWG2rOO6Rghonq",
+      "notes": {
+        "campaign_id": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+        "donation_id": "1fcd54ab-4440-4267-abad-1713a41b7cbf",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "Help 100 Children With School Education",
+        "receipt_number": "DG-M-20260831-FE6JNH"
+      },
+      "amount": 8600,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-FE6JNH",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 8600,
+      "created_at": 1788153301,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:15:01.652Z",
+    "updated_at": "2026-08-31T05:15:38.091Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "93b37118-422c-4fc7-bc4b-79a68cf3c171",
+  "fields": {
+    "donation": "5e0012bd-a4c2-4c5a-8a64-c4e2f870b257",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWFxEsZurQr7G1",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "10.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWFxEsZurQr7G1",
+      "notes": {
+        "campaign_id": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+        "donation_id": "5e0012bd-a4c2-4c5a-8a64-c4e2f870b257",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "Help 100 Children With School Education",
+        "receipt_number": "DG-M-20260831-DJ3DOP"
+      },
+      "amount": 1000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-DJ3DOP",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 1000,
+      "created_at": 1788152982,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:09:42.353Z",
+    "updated_at": "2026-08-31T05:09:42.353Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "addd18d4-3d39-459a-a94d-77fc91ddd0d6",
+  "fields": {
+    "donation": "3e029998-9e56-4e7f-b4d6-287d55129159",
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TlrlrcfNjFAACC",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "500.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TlrlrcfNjFAACC",
+      "notes": {
+        "campaign_id": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+        "donation_id": "3e029998-9e56-4e7f-b4d6-287d55129159",
+        "donor_email": "donor1@demo.local",
+        "campaign_title": "Clean Water Pipeline for Primary School",
+        "receipt_number": "DG-M-20261009-IQDYOY"
+      },
+      "amount": 50000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20261009-IQDYOY",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 50000,
+      "created_at": 1791561259,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-10-09T15:54:19.141Z",
+    "updated_at": "2026-10-09T15:54:19.141Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "b315c15f-9839-46e1-98d5-43be4e605ba8",
+  "fields": {
+    "donation": "0438f09b-f7d0-43f2-9198-5e8755181b8a",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TXDRhPR6epLj0i",
+    "gateway_payment_id": "pay_TXDRubxRPotk1q",
+    "gateway_signature": "637d5d897b294543eb38a1dcd36666e79ab60b88d7a4c012bc40bc596138c01a",
+    "amount": "5000.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TXDRhPR6epLj0i",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "0438f09b-f7d0-43f2-9198-5e8755181b8a",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20260902-ANLYIC"
+      },
+      "amount": 500000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260902-ANLYIC",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 500000,
+      "created_at": 1788362487,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-02T15:21:27.705Z",
+    "updated_at": "2026-09-02T15:21:57.194Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "c23dcb87-5a2c-4ed6-9288-8eec52bfe3f2",
+  "fields": {
+    "donation": "6196f831-d1b8-47b0-9da6-bd0104f0adb2",
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TlrMhzHqnHHXaA",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "500.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TlrMhzHqnHHXaA",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "6196f831-d1b8-47b0-9da6-bd0104f0adb2",
+        "donor_email": "donor1@demo.local",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20261009-JTQY13"
+      },
+      "amount": 50000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20261009-JTQY13",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 50000,
+      "created_at": 1791559830,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-10-09T15:30:30.342Z",
+    "updated_at": "2026-10-09T15:30:30.342Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "c8363872-2b09-4b04-b7f8-1f6199896f9f",
+  "fields": {
+    "donation": "6196149e-e443-4b67-aa8a-e3713a8f2c29",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TZCiVrQmfZJ3qM",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "2500.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TZCiVrQmfZJ3qM",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "6196149e-e443-4b67-aa8a-e3713a8f2c29",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20260907-N17JQQ"
+      },
+      "amount": 250000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260907-N17JQQ",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 250000,
+      "created_at": 1788796601,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-07T15:56:38.906Z",
+    "updated_at": "2026-09-07T15:56:38.906Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "cb37c284-efd3-495f-abf0-0965c0f15ece",
+  "fields": {
+    "donation": "946918d5-03ee-4b55-849f-0c9c67d77e9e",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWd5p5FXCKwxcw",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "10000.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWd5p5FXCKwxcw",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "946918d5-03ee-4b55-849f-0c9c67d77e9e",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20260901-7EIHJD"
+      },
+      "amount": 1000000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260901-7EIHJD",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 1000000,
+      "created_at": 1788234467,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-01T03:47:46.823Z",
+    "updated_at": "2026-09-01T03:47:46.823Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "cb9705e6-b167-4d1d-ad37-d3f10f449a3a",
+  "fields": {
+    "donation": "83ed5972-e3cb-4ea6-bd0f-8e0ecd877a28",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWd6WTqfZuN2Ay",
+    "gateway_payment_id": "pay_TWd7Lglj81kwML",
+    "gateway_signature": "b28e7735acdb13fc82e18281c5b3b977d242e074fb3db85a38407d3b0dbca6b8",
+    "amount": "10000.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWd6WTqfZuN2Ay",
+      "notes": {
+        "campaign_id": "69115811-de2c-4aff-9497-4c41d61ebe9f",
+        "donation_id": "83ed5972-e3cb-4ea6-bd0f-8e0ecd877a28",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test1",
+        "receipt_number": "DG-M-20260901-CAYD3S"
+      },
+      "amount": 1000000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260901-CAYD3S",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 1000000,
+      "created_at": 1788234506,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-01T03:48:26.579Z",
+    "updated_at": "2026-09-01T03:49:54.323Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "e8725ca2-e1ae-4da0-abef-30bd2ebe2a4f",
+  "fields": {
+    "donation": "af337bda-53f0-4b57-b1dd-420c7aed28ff",
+    "donor": [
+      "kj@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TWG1XXKlE22dAB",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "10.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TWG1XXKlE22dAB",
+      "notes": {
+        "campaign_id": "406d4371-aa9b-4713-ba3e-9f629b816f99",
+        "donation_id": "af337bda-53f0-4b57-b1dd-420c7aed28ff",
+        "donor_email": "kj@gmail.com",
+        "campaign_title": "Help 100 Children With School Education",
+        "receipt_number": "DG-M-20260831-PZNOW9"
+      },
+      "amount": 1000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260831-PZNOW9",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 1000,
+      "created_at": 1788153226,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-08-31T05:13:46.643Z",
+    "updated_at": "2026-08-31T05:13:46.643Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "e9d9e695-d9e3-4596-8c13-4bf83e59306b",
+  "fields": {
+    "donation": "f787c37b-f18e-47ac-9ca3-b109f1a75540",
+    "donor": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_TXCETjX5qK2MCP",
+    "gateway_payment_id": "pay_TXCEiNNSJLOe12",
+    "gateway_signature": "d2ac3e407cb12955690bf4ed172609be6e1ef1eedcebb9f62703277fafae33cb",
+    "amount": "2500.00",
+    "currency": "INR",
+    "status": "SUCCESS",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_TXCETjX5qK2MCP",
+      "notes": {
+        "campaign_id": "b8e2de2c-8b6d-460a-8536-536988743ffa",
+        "donation_id": "f787c37b-f18e-47ac-9ca3-b109f1a75540",
+        "donor_email": "chaudharykamlesh185@gmail.com",
+        "campaign_title": "test 2",
+        "receipt_number": "DG-M-20260902-ULGBOB"
+      },
+      "amount": 250000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20260902-ULGBOB",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 250000,
+      "created_at": 1788358215,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-09-02T14:10:15.183Z",
+    "updated_at": "2026-09-02T14:10:48.227Z"
+  }
+},
+{
+  "model": "campaigns.paymenttransaction",
+  "pk": "fe589e94-c140-4def-8bcb-53b88e733704",
+  "fields": {
+    "donation": "35e45f7c-c61f-4e5a-b740-196ae87be768",
+    "donor": [
+      "donor1@demo.local"
+    ],
+    "gateway": "RAZORPAY",
+    "gateway_order_id": "order_Tlrh2PiuuhgzMR",
+    "gateway_payment_id": null,
+    "gateway_signature": "",
+    "amount": "500.00",
+    "currency": "INR",
+    "status": "ORDER_CREATED",
+    "error_code": "",
+    "error_description": "",
+    "gateway_response_payload": {
+      "id": "order_Tlrh2PiuuhgzMR",
+      "notes": {
+        "campaign_id": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+        "donation_id": "35e45f7c-c61f-4e5a-b740-196ae87be768",
+        "donor_email": "donor1@demo.local",
+        "campaign_title": "Clean Water Pipeline for Primary School",
+        "receipt_number": "DG-M-20261009-66IXUE"
+      },
+      "amount": 50000,
+      "entity": "order",
+      "status": "created",
+      "receipt": "DG-M-20261009-66IXUE",
+      "attempts": 0,
+      "currency": "INR",
+      "offer_id": null,
+      "amount_due": 50000,
+      "created_at": 1791560985,
+      "amount_paid": 0
+    },
+    "idempotency_key": "",
+    "created_at": "2026-10-09T15:49:45.024Z",
+    "updated_at": "2026-10-09T15:49:45.024Z"
+  }
+},
+{
+  "model": "campaigns.taxreceiptrecord",
+  "pk": "18b04365-de2c-4186-99a1-80ba38d5310a",
+  "fields": {
+    "donation": "2bcc5c34-dbb7-4990-9200-e348c58bfb45",
+    "receipt_number": "DG-M-20261009-MOWULV",
+    "receipt_type": "STANDARD",
+    "financial_year": "FY 2026-27",
+    "donor_name_snapshot": "Alice Donor",
+    "donor_pan_masked_snapshot": "******234F",
+    "donor_email_snapshot": "donor1@demo.local",
+    "ngo_legal_name_snapshot": "Education Trust",
+    "ngo_pan_snapshot": "",
+    "ngo_80g_number_snapshot": "",
+    "ngo_80g_validity_snapshot": null,
+    "ngo_12a_number_snapshot": "",
+    "ngo_darpan_id_snapshot": "",
+    "ngo_address_snapshot": "Registered Office, India",
+    "campaign_title_snapshot": "Clean Water Pipeline for Primary School",
+    "amount": "500.00",
+    "amount_in_words": "Five Hundred Rupees Only",
+    "payment_gateway_ref_snapshot": "pay_sim_TlrnJPQrrv",
+    "donation_paid_at_snapshot": "2026-10-09T15:55:41.583Z",
+    "status": "ISSUED",
+    "issued_at": "2026-10-09T15:55:41.595Z",
+    "document_hash": "f3e01834a339704ed28711dce1413c54acab5ac97e6dd04eb4c07ce9831a1ef3",
+    "pdf_file": "tax_receipts/2026/10/Receipt_DG-M-20261009-MOWULV.pdf",
+    "download_count": 1,
+    "last_downloaded_at": "2026-10-09T15:56:02.875Z",
+    "email_sent": true,
+    "email_send_count": 1,
+    "last_email_sent_at": "2026-10-09T15:56:02.845Z",
+    "last_email_error": ""
+  }
+},
+{
+  "model": "campaigns.taxreceiptrecord",
+  "pk": "43b288e9-52f6-409c-b970-a50e7a561938",
+  "fields": {
+    "donation": "0438f09b-f7d0-43f2-9198-5e8755181b8a",
+    "receipt_number": "DG-M-20260902-ANLYIC",
+    "receipt_type": "STANDARD",
+    "financial_year": "FY 2026-27",
+    "donor_name_snapshot": "kamlesh chaudhary",
+    "donor_pan_masked_snapshot": "",
+    "donor_email_snapshot": "chaudharykamlesh185@gmail.com",
+    "ngo_legal_name_snapshot": "Education trust",
+    "ngo_pan_snapshot": "CKUPC8425M",
+    "ngo_80g_number_snapshot": "",
+    "ngo_80g_validity_snapshot": null,
+    "ngo_12a_number_snapshot": "",
+    "ngo_darpan_id_snapshot": "mh/8757/2943",
+    "ngo_address_snapshot": "Gujarat Gas Circle, Surat, surat, Gujarat, 395009",
+    "campaign_title_snapshot": "test 2",
+    "amount": "5000.00",
+    "amount_in_words": "Five Thousand Rupees Only",
+    "payment_gateway_ref_snapshot": "pay_TXDRubxRPotk1q",
+    "donation_paid_at_snapshot": "2026-09-02T15:21:57.196Z",
+    "status": "ISSUED",
+    "issued_at": "2026-09-02T15:21:57.215Z",
+    "document_hash": "708e10146be06a9c73eda99749da79d95c987154d665053486bb53be0f54cbdc",
+    "pdf_file": "tax_receipts/2026/09/Receipt_DG-M-20260902-ANLYIC.pdf",
+    "download_count": 0,
+    "last_downloaded_at": null,
+    "email_sent": true,
+    "email_send_count": 3,
+    "last_email_sent_at": "2026-09-10T12:23:09.157Z",
+    "last_email_error": ""
+  }
+},
+{
+  "model": "campaigns.taxreceiptrecord",
+  "pk": "65684ca9-fd49-4fa3-ab2e-5f7d11978135",
+  "fields": {
+    "donation": "1fcd54ab-4440-4267-abad-1713a41b7cbf",
+    "receipt_number": "DG-M-20260831-FE6JNH",
+    "receipt_type": "STANDARD",
+    "financial_year": "FY 2026-27",
+    "donor_name_snapshot": "kamlesh chaudhary",
+    "donor_pan_masked_snapshot": "",
+    "donor_email_snapshot": "chaudharykamlesh185@gmail.com",
+    "ngo_legal_name_snapshot": "Education trust",
+    "ngo_pan_snapshot": "CKUPC8425M",
+    "ngo_80g_number_snapshot": "",
+    "ngo_80g_validity_snapshot": null,
+    "ngo_12a_number_snapshot": "",
+    "ngo_darpan_id_snapshot": "mh/8757/2943",
+    "ngo_address_snapshot": "Gujarat Gas Circle, Surat, surat, Gujarat, 395009",
+    "campaign_title_snapshot": "Help 100 Children With School Education",
+    "amount": "86.00",
+    "amount_in_words": "Eighty Six Rupees Only",
+    "payment_gateway_ref_snapshot": "pay_TWG3Brb06DGXtI",
+    "donation_paid_at_snapshot": "2026-08-31T05:15:38.093Z",
+    "status": "ISSUED",
+    "issued_at": "2026-08-31T12:27:59.633Z",
+    "document_hash": "14b5ccaabda6c6a3cdf35b5d2b59f815e4c8ad0bf235c1fdb0410ad4adf18b88",
+    "pdf_file": "tax_receipts/2026/08/Receipt_DG-M-20260831-FE6JNH.pdf",
+    "download_count": 3,
+    "last_downloaded_at": "2026-09-01T03:33:14.802Z",
+    "email_sent": false,
+    "email_send_count": 0,
+    "last_email_sent_at": null,
+    "last_email_error": ""
+  }
+},
+{
+  "model": "campaigns.taxreceiptrecord",
+  "pk": "91a9d672-f875-4827-a314-91409ac04baf",
+  "fields": {
+    "donation": "bf0ff45c-ab1a-407b-a469-30e8d8fb28bf",
+    "receipt_number": "DG-M-20261009-LWJBQ3",
+    "receipt_type": "STANDARD",
+    "financial_year": "FY 2026-27",
+    "donor_name_snapshot": "kamlesh chaudhary",
+    "donor_pan_masked_snapshot": "",
+    "donor_email_snapshot": "kj@gmail.com",
+    "ngo_legal_name_snapshot": "Education trust",
+    "ngo_pan_snapshot": "CKUPC8425M",
+    "ngo_80g_number_snapshot": "",
+    "ngo_80g_validity_snapshot": null,
+    "ngo_12a_number_snapshot": "",
+    "ngo_darpan_id_snapshot": "mh/8757/2943",
+    "ngo_address_snapshot": "Gujarat Gas Circle, Surat, surat, Gujarat, 395009",
+    "campaign_title_snapshot": "test1",
+    "amount": "9999.00",
+    "amount_in_words": "Nine Thousand Nine Hundred Ninety Nine Rupees Only",
+    "payment_gateway_ref_snapshot": "pay_Tllxtqh92BY8HQ",
+    "donation_paid_at_snapshot": "2026-10-09T10:13:50.153Z",
+    "status": "ISSUED",
+    "issued_at": "2026-10-09T10:13:50.172Z",
+    "document_hash": "425282d022a401a558489005818cc0d58c1ff4a69f9b48f08eac0ef9534ae6b0",
+    "pdf_file": "tax_receipts/2026/10/Receipt_DG-M-20261009-LWJBQ3.pdf",
+    "download_count": 1,
+    "last_downloaded_at": "2026-10-10T05:10:18.012Z",
+    "email_sent": true,
+    "email_send_count": 2,
+    "last_email_sent_at": "2026-10-10T05:10:19.421Z",
+    "last_email_error": ""
+  }
+},
+{
+  "model": "campaigns.taxreceiptrecord",
+  "pk": "baa4fad4-2e22-4172-b705-0e26799f2809",
+  "fields": {
+    "donation": "4eb35fd1-fd4c-44c9-8441-554427d8447b",
+    "receipt_number": "DG-M-20260831-8STYX2",
+    "receipt_type": "STANDARD",
+    "financial_year": "FY 2026-27",
+    "donor_name_snapshot": "kamlesh chaudhary",
+    "donor_pan_masked_snapshot": "",
+    "donor_email_snapshot": "chaudharykamlesh185@gmail.com",
+    "ngo_legal_name_snapshot": "Education trust",
+    "ngo_pan_snapshot": "CKUPC8425M",
+    "ngo_80g_number_snapshot": "",
+    "ngo_80g_validity_snapshot": null,
+    "ngo_12a_number_snapshot": "",
+    "ngo_darpan_id_snapshot": "mh/8757/2943",
+    "ngo_address_snapshot": "Gujarat Gas Circle, Surat, surat, Gujarat, 395009",
+    "campaign_title_snapshot": "test1",
+    "amount": "1000.00",
+    "amount_in_words": "One Thousand Rupees Only",
+    "payment_gateway_ref_snapshot": "pay_TWMGytKteSD04C",
+    "donation_paid_at_snapshot": "2026-08-31T11:20:47.003Z",
+    "status": "ISSUED",
+    "issued_at": "2026-08-31T12:03:03.159Z",
+    "document_hash": "678541b65a931e3a426556fea20225a3f9dc7f3ac6dc5177d4ea5fb58bf88edd",
+    "pdf_file": "tax_receipts/2026/08/Receipt_DG-M-20260831-8STYX2.pdf",
+    "download_count": 1,
+    "last_downloaded_at": "2026-08-31T12:36:36.390Z",
+    "email_sent": false,
+    "email_send_count": 0,
+    "last_email_sent_at": null,
+    "last_email_error": ""
+  }
+},
+{
+  "model": "campaigns.taxreceiptrecord",
+  "pk": "ca7c6a1e-63b4-49a9-bf87-7be19826e14f",
+  "fields": {
+    "donation": "26e7bf25-84fb-4c1e-9dd3-9e6ee1ea653b",
+    "receipt_number": "DG-M-20260910-DQKQGK",
+    "receipt_type": "STANDARD",
+    "financial_year": "FY 2026-27",
+    "donor_name_snapshot": "kamlesh chaudhary",
+    "donor_pan_masked_snapshot": "",
+    "donor_email_snapshot": "chaudharykamlesh185@gmail.com",
+    "ngo_legal_name_snapshot": "Education trust",
+    "ngo_pan_snapshot": "CKUPC8425M",
+    "ngo_80g_number_snapshot": "",
+    "ngo_80g_validity_snapshot": null,
+    "ngo_12a_number_snapshot": "",
+    "ngo_darpan_id_snapshot": "mh/8757/2943",
+    "ngo_address_snapshot": "Gujarat Gas Circle, Surat, surat, Gujarat, 395009",
+    "campaign_title_snapshot": "test 2",
+    "amount": "99.00",
+    "amount_in_words": "Ninety Nine Rupees Only",
+    "payment_gateway_ref_snapshot": "pay_TaJgGkWhw6NBmR",
+    "donation_paid_at_snapshot": "2026-09-10T11:24:41.172Z",
+    "status": "ISSUED",
+    "issued_at": "2026-09-10T11:24:41.189Z",
+    "document_hash": "5dc82fb0c312fa9f3e1f49b074eb7681cd5d45e621c159eb32abad5c8e1b99e4",
+    "pdf_file": "tax_receipts/2026/09/Receipt_DG-M-20260910-DQKQGK.pdf",
+    "download_count": 0,
+    "last_downloaded_at": null,
+    "email_sent": false,
+    "email_send_count": 0,
+    "last_email_sent_at": null,
+    "last_email_error": ""
+  }
+},
+{
+  "model": "campaigns.taxreceiptrecord",
+  "pk": "d7cb833d-14b1-4170-a369-236dfc603a82",
+  "fields": {
+    "donation": "79dc6ee5-b543-4e61-a8d8-9b366c2339cb",
+    "receipt_number": "DG-M-20260929-AT012Q",
+    "receipt_type": "STANDARD",
+    "financial_year": "FY 2026-27",
+    "donor_name_snapshot": "kamlesh chaudhary",
+    "donor_pan_masked_snapshot": "",
+    "donor_email_snapshot": "chaudharykamlesh185@gmail.com",
+    "ngo_legal_name_snapshot": "Education trust",
+    "ngo_pan_snapshot": "CKUPC8425M",
+    "ngo_80g_number_snapshot": "",
+    "ngo_80g_validity_snapshot": null,
+    "ngo_12a_number_snapshot": "",
+    "ngo_darpan_id_snapshot": "mh/8757/2943",
+    "ngo_address_snapshot": "Gujarat Gas Circle, Surat, surat, Gujarat, 395009",
+    "campaign_title_snapshot": "test 2",
+    "amount": "5000.00",
+    "amount_in_words": "Five Thousand Rupees Only",
+    "payment_gateway_ref_snapshot": "pay_ThoPVfJ47wtMVx",
+    "donation_paid_at_snapshot": "2026-09-29T10:01:35.200Z",
+    "status": "ISSUED",
+    "issued_at": "2026-09-29T10:01:35.221Z",
+    "document_hash": "c5799f4e37f526129da269b04035dcaa3b61a0b852a41ad006e47af21054f6c4",
+    "pdf_file": "tax_receipts/2026/09/Receipt_DG-M-20260929-AT012Q.pdf",
+    "download_count": 0,
+    "last_downloaded_at": null,
+    "email_sent": true,
+    "email_send_count": 1,
+    "last_email_sent_at": "2026-09-29T10:01:40.636Z",
+    "last_email_error": ""
+  }
+},
+{
+  "model": "campaigns.campaignmilestone",
+  "pk": "e0c91c30-307e-446d-8b78-af2d577ad9ed",
+  "fields": {
+    "campaign": "f2adcc40-5d8e-48b2-a559-cc3ebb2896a1",
+    "sequence_number": 1,
+    "title": "Pipeline Installation & Filter Procurement",
+    "description": "Purchase 1000L tank and pipeline hardware.",
+    "target_amount": "50000.00",
+    "target_completion_date": "2026-12-15",
+    "actual_completion_date": null,
+    "status": "PENDING",
+    "created_at": "2026-10-09T15:39:10.917Z",
+    "updated_at": "2026-10-09T15:39:10.917Z"
+  }
+},
+{
+  "model": "csr.companyprofile",
+  "pk": "60ed1954-7c4b-4ad3-be4d-37212cb57e70",
+  "fields": {
+    "user": [
+      "company1@demo.local"
+    ],
+    "company_name": "KK Industries Ltd",
+    "legal_name": "",
+    "cin_number": "L11111MH2023PTC111111",
+    "pan_number": "",
+    "csr_registration_number": null,
+    "contact_person_name": "",
+    "contact_person_designation": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "official_website": null,
+    "registered_address": "",
+    "city": "",
+    "state": "",
+    "pincode": "",
+    "annual_csr_budget": "0.00",
+    "verification_status": "APPROVED",
+    "verification_document": "",
+    "rejection_reason": null,
+    "suspension_reason": null,
+    "verified_at": null,
+    "verified_by": null,
+    "created_at": "2026-09-27T16:16:38.422Z",
+    "updated_at": "2026-09-27T16:16:38.422Z"
+  }
+},
+{
+  "model": "csr.companyprofile",
+  "pk": "b4e542c5-40dc-48e0-99d1-ed1bb243e823",
+  "fields": {
+    "user": [
+      "company2@demo.local"
+    ],
+    "company_name": "ABC Corp",
+    "legal_name": "",
+    "cin_number": "L22222MH2023PTC222222",
+    "pan_number": "",
+    "csr_registration_number": null,
+    "contact_person_name": "",
+    "contact_person_designation": "",
+    "contact_email": "",
+    "contact_phone": "",
+    "official_website": null,
+    "registered_address": "",
+    "city": "",
+    "state": "",
+    "pincode": "",
+    "annual_csr_budget": "0.00",
+    "verification_status": "APPROVED",
+    "verification_document": "",
+    "rejection_reason": null,
+    "suspension_reason": null,
+    "verified_at": null,
+    "verified_by": null,
+    "created_at": "2026-09-27T16:16:38.542Z",
+    "updated_at": "2026-09-27T16:16:38.542Z"
+  }
+},
+{
+  "model": "csr.companyprofile",
+  "pk": "cc8f3f98-31a3-45d7-8be6-6f4f76014890",
+  "fields": {
+    "user": [
+      "kk@gmail.com"
+    ],
+    "company_name": "KK Industries Ltd",
+    "legal_name": "KK Industries Ltd",
+    "cin_number": "L80451MH2020PLC123456",
+    "pan_number": "ABCDE2267F",
+    "csr_registration_number": null,
+    "contact_person_name": "Corporate SPOC",
+    "contact_person_designation": "CSR Lead",
+    "contact_email": "kk@gmail.com",
+    "contact_phone": "+919876543210",
+    "official_website": null,
+    "registered_address": "Corporate Towers, Financial District",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400001",
+    "annual_csr_budget": "0.00",
+    "verification_status": "APPROVED",
+    "verification_document": "",
+    "rejection_reason": null,
+    "suspension_reason": null,
+    "verified_at": null,
+    "verified_by": null,
+    "created_at": "2026-09-22T17:16:18.580Z",
+    "updated_at": "2026-09-22T17:17:47.213Z"
+  }
+},
+{
+  "model": "csr.companycsrpreference",
+  "pk": "c550e16f-af09-4177-8015-6a6f44d88b03",
+  "fields": {
+    "company": "cc8f3f98-31a3-45d7-8be6-6f4f76014890",
+    "preferred_categories": [],
+    "preferred_states": [],
+    "preferred_districts": [],
+    "is_nationwide": true,
+    "has_no_location_pref": false,
+    "min_budget": "20000.00",
+    "max_budget": "20000.00",
+    "preferred_duration_months": 4,
+    "preferred_beneficiaries": [
+      "CHILDREN_EDUCATION",
+      "YOUTH_SKILLING",
+      "HEALTHCARE_PATIENTS",
+      "WOMEN_EMPOWERMENT",
+      "SPECIALLY_ABLED",
+      "RURAL_COMMUNITIES",
+      "ELDERLY_CARE",
+      "ENVIRONMENTAL_HABITATS",
+      "DISASTER_AFFECTED"
+    ],
+    "created_at": "2026-09-22T17:16:18.588Z",
+    "updated_at": "2026-10-09T06:22:37.005Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "24d6e8b4-b39e-4da5-ac85-7bb4bdd6fc74",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Tribal Healthcare Project in Gadchiroli",
+    "slug": "tribal-healthcare-project-in-gadchiroli-702f80ee",
+    "schedule_vii_category": "ERADICATING_HUNGER",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "location_scope": "ASPIRATIONAL_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "RURAL_COMMUNITIES",
+    "target_beneficiary_count": 1500,
+    "summary": "Mobile medical dispensary in aspirational district.",
+    "detailed_description": "Providing routine diagnostics and emergency transport in remote tribal zones.",
+    "expected_outcomes": "Zero preventable maternal mortalities in 15 blocks.",
+    "total_estimated_budget": "600000.00",
+    "required_csr_funding": "500000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T07:42:29.601Z",
+    "updated_at": "2026-10-09T07:42:29.601Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Bilateral Maternal Health & Mobile Clinic Project",
+    "slug": "bilateral-maternal-health-mobile-clinic-project-6fb9f82e",
+    "schedule_vii_category": "RURAL_DEVELOPMENT",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "SPECIFIC_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "WOMEN_EMPOWERMENT",
+    "target_beneficiary_count": 2500,
+    "summary": "Deploy mobile medical checkup van for rural maternal healthcare.",
+    "detailed_description": "Comprehensive clinic operations covering antenatal checkups and early diagnostics.",
+    "expected_outcomes": "Reduce maternal mortality and improve healthcare reach.",
+    "total_estimated_budget": "500000.00",
+    "required_csr_funding": "400000.00",
+    "committed_funding": "200000.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "IN_EXECUTION",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": [
+      "admin1@demo.local"
+    ],
+    "reviewed_at": "2026-10-09T08:54:59.051Z",
+    "rejection_reason": null,
+    "created_at": "2026-10-09T08:54:59.015Z",
+    "updated_at": "2026-10-09T08:55:35.850Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "38234c80-0565-48a1-a305-98649c2fcd0d",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "CSR Initiative - Pan-India Multi-State",
+    "slug": "csr-initiative-pan-india-multi-state-75fc50bc",
+    "schedule_vii_category": "PROMOTING_EDUCATION",
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "location_scope": "NATIONWIDE",
+    "additional_districts": [],
+    "beneficiary_demographic": "CHILDREN_EDUCATION",
+    "target_beneficiary_count": 1000,
+    "summary": "Test proposal for Pan-India Multi-State geographical scope.",
+    "detailed_description": "Detailed implementation strategy covering Mumbai and related scope territory.",
+    "expected_outcomes": "Direct social impact verified under Pan-India Multi-State.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T07:41:45.250Z",
+    "updated_at": "2026-10-09T07:41:45.250Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "3d36359b-53ab-4765-a421-5745c2748532",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "CSR Initiative - State-Wide Initiative",
+    "slug": "csr-initiative-state-wide-initiative-1fc8d6d2",
+    "schedule_vii_category": "PROMOTING_EDUCATION",
+    "state": "Maharashtra",
+    "district": "Thane",
+    "location_scope": "MULTI_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "CHILDREN_EDUCATION",
+    "target_beneficiary_count": 1000,
+    "summary": "Test proposal for State-Wide Initiative geographical scope.",
+    "detailed_description": "Detailed implementation strategy covering Thane and related scope territory.",
+    "expected_outcomes": "Direct social impact verified under State-Wide Initiative.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T07:41:45.212Z",
+    "updated_at": "2026-10-09T07:41:45.212Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "4b2aeae5-7562-42c9-8738-e569b514a480",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Test MULTI_DISTRICT Initiative Proposal",
+    "slug": "test-multi_district-initiative-proposal-2c1d0ad7",
+    "schedule_vii_category": "ERADICATING_HUNGER",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "MULTI_DISTRICT",
+    "additional_districts": [
+      "Satara"
+    ],
+    "beneficiary_demographic": "RURAL_COMMUNITIES",
+    "target_beneficiary_count": 1000,
+    "summary": "Proposal testing location scope MULTI_DISTRICT.",
+    "detailed_description": "Comprehensive operations for MULTI_DISTRICT implementation.",
+    "expected_outcomes": "Measurable healthcare improvement.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-12-01",
+    "expected_completion_date": "2027-11-30",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T10:18:47.800Z",
+    "updated_at": "2026-10-09T10:18:47.800Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "50a1dc82-ee7c-4bec-8ece-7f3dd7fe1f39",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Test ASPIRATIONAL_DISTRICT Initiative Proposal",
+    "slug": "test-aspirational_district-initiative-proposal-ddfd85eb",
+    "schedule_vii_category": "ERADICATING_HUNGER",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "ASPIRATIONAL_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "RURAL_COMMUNITIES",
+    "target_beneficiary_count": 1000,
+    "summary": "Proposal testing location scope ASPIRATIONAL_DISTRICT.",
+    "detailed_description": "Comprehensive operations for ASPIRATIONAL_DISTRICT implementation.",
+    "expected_outcomes": "Measurable healthcare improvement.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-12-01",
+    "expected_completion_date": "2027-11-30",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T10:18:47.845Z",
+    "updated_at": "2026-10-09T10:18:47.845Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "7c40fd10-41e3-403e-ac5c-4419d6fcf0a1",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "CSR Initiative - District / Local Block",
+    "slug": "csr-initiative-district-local-block-862c506f",
+    "schedule_vii_category": "PROMOTING_EDUCATION",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "SPECIFIC_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "CHILDREN_EDUCATION",
+    "target_beneficiary_count": 1000,
+    "summary": "Test proposal for District / Local Block geographical scope.",
+    "detailed_description": "Detailed implementation strategy covering Pune and related scope territory.",
+    "expected_outcomes": "Direct social impact verified under District / Local Block.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T07:41:45.194Z",
+    "updated_at": "2026-10-09T07:41:45.194Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "8a1e0a20-18b1-4e3c-8c17-415dfc090f18",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "CSR Initiative - NITI Aayog Aspirational District",
+    "slug": "csr-initiative-niti-aayog-aspirational-district-7c3ce939",
+    "schedule_vii_category": "PROMOTING_EDUCATION",
+    "state": "Maharashtra",
+    "district": "Gadchiroli",
+    "location_scope": "ASPIRATIONAL_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "CHILDREN_EDUCATION",
+    "target_beneficiary_count": 1000,
+    "summary": "Test proposal for NITI Aayog Aspirational District geographical scope.",
+    "detailed_description": "Detailed implementation strategy covering Gadchiroli and related scope territory.",
+    "expected_outcomes": "Direct social impact verified under NITI Aayog Aspirational District.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T07:41:45.229Z",
+    "updated_at": "2026-10-09T07:41:45.229Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "a87d1e9b-e12b-41d5-97f0-85a3b55e5d05",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Test NATIONWIDE Initiative Proposal",
+    "slug": "test-nationwide-initiative-proposal-6c48ebca",
+    "schedule_vii_category": "ERADICATING_HUNGER",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "NATIONWIDE",
+    "additional_districts": [],
+    "beneficiary_demographic": "RURAL_COMMUNITIES",
+    "target_beneficiary_count": 1000,
+    "summary": "Proposal testing location scope NATIONWIDE.",
+    "detailed_description": "Comprehensive operations for NATIONWIDE implementation.",
+    "expected_outcomes": "Measurable healthcare improvement.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-12-01",
+    "expected_completion_date": "2027-11-30",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T10:18:47.894Z",
+    "updated_at": "2026-10-09T10:18:47.894Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "aae00600-0ee4-4b13-af9b-8ccae1d28ca4",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Test SPECIFIC_DISTRICT Initiative Proposal",
+    "slug": "test-specific_district-initiative-proposal-063af2d4",
+    "schedule_vii_category": "ERADICATING_HUNGER",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "SPECIFIC_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "RURAL_COMMUNITIES",
+    "target_beneficiary_count": 1000,
+    "summary": "Proposal testing location scope SPECIFIC_DISTRICT.",
+    "detailed_description": "Comprehensive operations for SPECIFIC_DISTRICT implementation.",
+    "expected_outcomes": "Measurable healthcare improvement.",
+    "total_estimated_budget": "300000.00",
+    "required_csr_funding": "250000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-12-01",
+    "expected_completion_date": "2027-11-30",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T10:18:47.750Z",
+    "updated_at": "2026-10-09T10:18:47.750Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "d80aea07-a3b8-4f64-8ba2-85062ef4577a",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Solar RO Water Units - State Wide",
+    "slug": "solar-ro-water-units-state-wide-6af8f4ba",
+    "schedule_vii_category": "PROMOTING_EDUCATION",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "MULTI_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "CHILDREN_EDUCATION",
+    "target_beneficiary_count": 2500,
+    "summary": "Solar-powered filtration for 25 schools in rural Maharashtra.",
+    "detailed_description": "Deploying clean water filtration systems across multiple remote districts.",
+    "expected_outcomes": "2,500 children have safe drinking water daily.",
+    "total_estimated_budget": "500000.00",
+    "required_csr_funding": "400000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "DRAFT",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "rejection_reason": null,
+    "created_at": "2026-10-09T07:41:45.173Z",
+    "updated_at": "2026-10-09T07:41:45.173Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "eac20de5-916e-42b0-8307-00a6da6beeba",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "Bilateral Maternal Health & Mobile Clinic Project",
+    "slug": "bilateral-maternal-health-mobile-clinic-project-a3d7af0c",
+    "schedule_vii_category": "RURAL_DEVELOPMENT",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "location_scope": "SPECIFIC_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "WOMEN_EMPOWERMENT",
+    "target_beneficiary_count": 2500,
+    "summary": "Deploy mobile medical checkup van for rural maternal healthcare.",
+    "detailed_description": "Comprehensive clinic operations covering antenatal checkups and early diagnostics.",
+    "expected_outcomes": "Reduce maternal mortality and improve healthcare reach.",
+    "total_estimated_budget": "500000.00",
+    "required_csr_funding": "400000.00",
+    "committed_funding": "200000.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-10-31",
+    "status": "IN_EXECUTION",
+    "proposal_document": "",
+    "detailed_budget_document": "",
+    "impact_assessment_report": "",
+    "reviewed_by": [
+      "admin1@demo.local"
+    ],
+    "reviewed_at": "2026-10-09T09:06:34.102Z",
+    "rejection_reason": null,
+    "created_at": "2026-10-09T09:06:34.072Z",
+    "updated_at": "2026-10-09T09:07:19.208Z"
+  }
+},
+{
+  "model": "csr.csrrequirement",
+  "pk": "f08d8f1a-77da-4a45-8313-0cc39a622f97",
+  "fields": {
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "created_by": [
+      "ngo1@demo.local"
+    ],
+    "title": "E2E Verified Aspirational Health Clinic Initiative",
+    "slug": "e2e-verified-aspirational-health-clinic-initiative-3974a178",
+    "schedule_vii_category": "RURAL_DEVELOPMENT",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "location_scope": "ASPIRATIONAL_DISTRICT",
+    "additional_districts": [],
+    "beneficiary_demographic": "WOMEN_EMPOWERMENT",
+    "target_beneficiary_count": 500,
+    "summary": "Comprehensive rural healthcare delivery in aspirational district.",
+    "detailed_description": "Mobile diagnostic and treatment van servicing weekly rotation across remote blocks.",
+    "expected_outcomes": "Improved maternal and infant health metrics.",
+    "total_estimated_budget": "500000.00",
+    "required_csr_funding": "450000.00",
+    "committed_funding": "0.00",
+    "start_date": "2026-11-01",
+    "expected_completion_date": "2027-11-01",
+    "status": "OPEN_FOR_CSR",
+    "proposal_document": "csr_docs/proposals/f08d8f1a-77da-4a45-8313-0cc39a622f97/2cf51623eca4472eacc3abac1574f8e2.pdf",
+    "detailed_budget_document": "csr_docs/budgets/f08d8f1a-77da-4a45-8313-0cc39a622f97/16e860e2b3ca46cb96e23382139f9285.pdf",
+    "impact_assessment_report": "csr_docs/impact/f08d8f1a-77da-4a45-8313-0cc39a622f97/af910e35258e410b856874d4eb814232.pdf",
+    "reviewed_by": [
+      "admin1@demo.local"
+    ],
+    "reviewed_at": "2026-10-09T08:22:28.239Z",
+    "rejection_reason": null,
+    "created_at": "2026-10-09T08:22:27.973Z",
+    "updated_at": "2026-10-09T08:22:28.239Z"
+  }
+},
+{
+  "model": "csr.csrsupportrequest",
+  "pk": "01311cd1-1f7d-4e08-b38b-1c91daddc034",
+  "fields": {
+    "company": "60ed1954-7c4b-4ad3-be4d-37212cb57e70",
+    "requirement": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "company_name_snapshot": "KK Industries Ltd",
+    "spoc_name": "Rohan Sharma",
+    "spoc_email": "rohan@kkindustries.com",
+    "spoc_phone": "+919876543210",
+    "proposed_funding": "200000.00",
+    "support_type": "FINANCIAL_GRANT",
+    "message": "KK Industries is delighted to partner on maternal healthcare in Pune.",
+    "status": "ACCEPTED",
+    "rejection_reason": null,
+    "withdrawal_reason": null,
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "reviewed_at": "2026-10-09T08:55:25.256Z",
+    "expires_at": "2026-12-08T08:55:03.869Z",
+    "created_at": "2026-10-09T08:55:03.872Z",
+    "updated_at": "2026-10-09T08:55:25.257Z"
+  }
+},
+{
+  "model": "csr.csrsupportrequest",
+  "pk": "3c8a6ddf-f1a5-4280-9b94-e0e91908707b",
+  "fields": {
+    "company": "b4e542c5-40dc-48e0-99d1-ed1bb243e823",
+    "requirement": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "company_name_snapshot": "ABC Corp",
+    "spoc_name": "Ananya Sen",
+    "spoc_email": "ananya@abccorp.com",
+    "spoc_phone": "+919876543211",
+    "proposed_funding": "100000.00",
+    "support_type": "CO_FUNDING",
+    "message": "ABC Corp proposes co-funding support.",
+    "status": "REJECTED",
+    "rejection_reason": "Co-funding terms do not align with current project charter.",
+    "withdrawal_reason": null,
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "reviewed_at": "2026-10-09T08:55:18.537Z",
+    "expires_at": "2026-12-08T08:55:08.322Z",
+    "created_at": "2026-10-09T08:55:08.324Z",
+    "updated_at": "2026-10-09T08:55:18.537Z"
+  }
+},
+{
+  "model": "csr.csrsupportrequest",
+  "pk": "49a0dfe6-419a-461f-b37d-bbfdedbe35ff",
+  "fields": {
+    "company": "60ed1954-7c4b-4ad3-be4d-37212cb57e70",
+    "requirement": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "company_name_snapshot": "KK Industries Ltd",
+    "spoc_name": "Rohan Sharma",
+    "spoc_email": "rohan@kkindustries.com",
+    "spoc_phone": "+919876543210",
+    "proposed_funding": "200000.00",
+    "support_type": "FINANCIAL_GRANT",
+    "message": "KK Industries is delighted to partner on maternal healthcare in Pune.",
+    "status": "ACCEPTED",
+    "rejection_reason": null,
+    "withdrawal_reason": null,
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "reviewed_at": "2026-10-09T09:06:58.095Z",
+    "expires_at": "2026-12-08T09:06:39.016Z",
+    "created_at": "2026-10-09T09:06:39.018Z",
+    "updated_at": "2026-10-09T09:06:58.095Z"
+  }
+},
+{
+  "model": "csr.csrsupportrequest",
+  "pk": "53fb1d7e-050e-4724-8230-167d44565d6c",
+  "fields": {
+    "company": "b4e542c5-40dc-48e0-99d1-ed1bb243e823",
+    "requirement": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "company_name_snapshot": "ABC Corp",
+    "spoc_name": "Ananya Sen",
+    "spoc_email": "ananya@abccorp.com",
+    "spoc_phone": "+919876543211",
+    "proposed_funding": "100000.00",
+    "support_type": "CO_FUNDING",
+    "message": "ABC Corp proposes co-funding support.",
+    "status": "REJECTED",
+    "rejection_reason": "Co-funding terms do not align with current project charter.",
+    "withdrawal_reason": null,
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "reviewed_at": "2026-10-09T09:06:49.407Z",
+    "expires_at": "2026-12-08T09:06:43.904Z",
+    "created_at": "2026-10-09T09:06:43.908Z",
+    "updated_at": "2026-10-09T09:06:49.408Z"
+  }
+},
+{
+  "model": "csr.csrpartnership",
+  "pk": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+  "fields": {
+    "company": "60ed1954-7c4b-4ad3-be4d-37212cb57e70",
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "requirement": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "support_request": "49a0dfe6-419a-461f-b37d-bbfdedbe35ff",
+    "partnership_code": "CSR-PT-20261009-B6CFAE",
+    "agreed_funding_amount": "200000.00",
+    "disbursed_amount_reported": "200000.00",
+    "execution_start_date": "2026-11-01",
+    "target_completion_date": "2027-10-31",
+    "actual_completion_date": null,
+    "status": "ACTIVE",
+    "signed_mou_document": "csr_docs/mous/4576dbe7-cd0f-411f-9baa-0e83d2578fcc/2fc4982ca42b422bad109116e47deefc.pdf",
+    "created_at": "2026-10-09T09:06:58.110Z",
+    "updated_at": "2026-10-09T09:07:53.295Z",
+    "completed_at": null
+  }
+},
+{
+  "model": "csr.csrpartnership",
+  "pk": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+  "fields": {
+    "company": "60ed1954-7c4b-4ad3-be4d-37212cb57e70",
+    "ngo": "eee8a7e8-6899-4915-894d-13247a9fd46c",
+    "requirement": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "support_request": "01311cd1-1f7d-4e08-b38b-1c91daddc034",
+    "partnership_code": "CSR-PT-20261009-210CF6",
+    "agreed_funding_amount": "200000.00",
+    "disbursed_amount_reported": "200000.00",
+    "execution_start_date": "2026-11-01",
+    "target_completion_date": "2027-10-31",
+    "actual_completion_date": null,
+    "status": "ACTIVE",
+    "signed_mou_document": "csr_docs/mous/5447ec93-4e45-4346-9472-3ec338b6c7b9/f410dde210db4974bdaecfd428fe4d15.pdf",
+    "created_at": "2026-10-09T08:55:25.277Z",
+    "updated_at": "2026-10-09T08:56:03.762Z",
+    "completed_at": null
+  }
+},
+{
+  "model": "csr.partnershipmilestone",
+  "pk": "17d29929-a404-48e1-ac92-1250c9310de2",
+  "fields": {
+    "partnership": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+    "sequence_number": 2,
+    "title": "Phase 2: Mobile Medical Van Route Deployment",
+    "description": "Weekly rotation across rural blocks in Pune district.",
+    "target_completion_date": "2027-04-30",
+    "actual_completion_date": null,
+    "status": "PENDING",
+    "evidence_document": "",
+    "evidence_notes": null,
+    "completion_percentage": 0,
+    "verified_by": null,
+    "verified_at": null,
+    "created_at": "2026-10-09T09:07:33.373Z",
+    "updated_at": "2026-10-09T09:07:33.373Z"
+  }
+},
+{
+  "model": "csr.partnershipmilestone",
+  "pk": "b275fa64-7165-41fd-afff-f98fafdbeef2",
+  "fields": {
+    "partnership": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+    "sequence_number": 2,
+    "title": "Phase 2: Mobile Medical Van Route Deployment",
+    "description": "Weekly rotation across rural blocks in Pune district.",
+    "target_completion_date": "2027-04-30",
+    "actual_completion_date": null,
+    "status": "PENDING",
+    "evidence_document": "",
+    "evidence_notes": null,
+    "completion_percentage": 0,
+    "verified_by": null,
+    "verified_at": null,
+    "created_at": "2026-10-09T08:55:46.274Z",
+    "updated_at": "2026-10-09T08:55:46.274Z"
+  }
+},
+{
+  "model": "csr.partnershipmilestone",
+  "pk": "c076446b-ede4-4b69-a980-02b8d055fdcb",
+  "fields": {
+    "partnership": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+    "sequence_number": 1,
+    "title": "Phase 1: Procurement of Portable Ultrasound & ECG",
+    "description": "Procure and calibrate all diagnostic hardware.",
+    "target_completion_date": "2026-12-15",
+    "actual_completion_date": "2026-10-09",
+    "status": "VERIFIED",
+    "evidence_document": "csr_docs/milestones/c076446b-ede4-4b69-a980-02b8d055fdcb/6c5005705ce0430e9a5ad8ee0ded24ff.pdf",
+    "evidence_notes": "Added 3-year OEM warranty certificates per corporate partner request.",
+    "completion_percentage": 100,
+    "verified_by": [
+      "company1@demo.local"
+    ],
+    "verified_at": "2026-10-09T08:55:57.817Z",
+    "created_at": "2026-10-09T08:55:46.185Z",
+    "updated_at": "2026-10-09T08:55:57.817Z"
+  }
+},
+{
+  "model": "csr.partnershipmilestone",
+  "pk": "cec764a5-a4e9-455f-b653-67c524999c81",
+  "fields": {
+    "partnership": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+    "sequence_number": 1,
+    "title": "Phase 1: Procurement of Portable Ultrasound & ECG",
+    "description": "Procure and calibrate all diagnostic hardware.",
+    "target_completion_date": "2026-12-15",
+    "actual_completion_date": "2026-10-09",
+    "status": "VERIFIED",
+    "evidence_document": "csr_docs/milestones/cec764a5-a4e9-455f-b653-67c524999c81/b55e006d2e9d474d9e725fc5c2e181b5.pdf",
+    "evidence_notes": "Added 3-year OEM warranty certificates per corporate partner request.",
+    "completion_percentage": 100,
+    "verified_by": [
+      "company1@demo.local"
+    ],
+    "verified_at": "2026-10-09T09:07:47.700Z",
+    "created_at": "2026-10-09T09:07:33.272Z",
+    "updated_at": "2026-10-09T09:07:47.700Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "0115463f-7d0a-4e58-ac98-0272891977dd",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "old_status": "PENDING_NGO_REVIEW",
+    "new_status": "REJECTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Support request rejected by NGO: Co-funding terms do not align with current project charter.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:18.538Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "0a960765-301e-40c2-8549-766b75734bea",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "old_status": "OPEN_FOR_CSR",
+    "new_status": "OPEN_FOR_CSR",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Support request 49a0dfe6-419a-461f-b37d-bbfdedbe35ff submitted by company 'KK Industries Ltd'.",
+    "metadata": {
+      "proposed_funding": "200000.00",
+      "support_request_id": "49a0dfe6-419a-461f-b37d-bbfdedbe35ff"
+    },
+    "created_at": "2026-10-09T09:06:39.020Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "0c8a99d0-07f3-4d82-b750-87f870249852",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+    "old_status": "PENDING_MOU",
+    "new_status": "ACTIVE",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Partnership activated into ground execution.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:07:19.209Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "17da6eda-d30f-442f-9ffd-b6ed44309815",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+    "old_status": "ACTIVE",
+    "new_status": "ACTIVE",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Off-platform disbursement recorded: ₹100000.00. NEFT Ref #UTR8819202 transferred for clinic operational outlay.",
+    "metadata": {
+      "notes": "NEFT Ref #UTR8819202 transferred for clinic operational outlay.",
+      "total_reported": "200000.00",
+      "disbursed_increment": "100000.00"
+    },
+    "created_at": "2026-10-09T09:07:53.296Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "1ddad393-f094-40fd-86dd-efe98d2d49f1",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "c076446b-ede4-4b69-a980-02b8d055fdcb",
+    "old_status": null,
+    "new_status": "PENDING",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Milestone #1 created for partnership CSR-PT-20261009-210CF6.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:46.189Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "1dfec6d9-abbb-4cb6-94a4-f0c557a34213",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "OPEN_FOR_CSR",
+    "reviewed_by": [
+      "admin1@demo.local"
+    ],
+    "review_notes": "Requirement approved and set to OPEN_FOR_CSR.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:54:59.053Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "1f7a0ece-f6dc-44ea-bf96-a6bb78b94155",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "f08d8f1a-77da-4a45-8313-0cc39a622f97",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "OPEN_FOR_CSR",
+    "reviewed_by": [
+      "admin1@demo.local"
+    ],
+    "review_notes": "Requirement approved and set to OPEN_FOR_CSR.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:22:28.240Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "21575203-9a52-442e-8faa-1236a50159c9",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+    "old_status": "ACTIVE",
+    "new_status": "ACTIVE",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Off-platform disbursement recorded: ₹100000.00. NEFT Ref #UTR8819202 transferred for clinic operational outlay.",
+    "metadata": {
+      "notes": "NEFT Ref #UTR8819202 transferred for clinic operational outlay.",
+      "total_reported": "200000.00",
+      "disbursed_increment": "100000.00"
+    },
+    "created_at": "2026-10-09T08:56:03.763Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "2493ccfe-3119-4352-9591-278627dff541",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+    "old_status": "ACTIVE",
+    "new_status": "ACTIVE",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Off-platform disbursement recorded: ₹100000.00. NEFT Ref #UTR8819201 transferred to NGO bank account for equipment procurement.",
+    "metadata": {
+      "notes": "NEFT Ref #UTR8819201 transferred to NGO bank account for equipment procurement.",
+      "total_reported": "100000.00",
+      "disbursed_increment": "100000.00"
+    },
+    "created_at": "2026-10-09T09:07:53.248Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "3051d197-4453-4860-8c2a-153cde8194e8",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+    "old_status": null,
+    "new_status": "PENDING_MOU",
+    "reviewed_by": null,
+    "review_notes": "Partnership formed from support request 01311cd1-1f7d-4e08-b38b-1c91daddc034.",
+    "metadata": {
+      "agreed_funding": "200000.00",
+      "partnership_code": "CSR-PT-20261009-210CF6"
+    },
+    "created_at": "2026-10-09T08:55:25.281Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "356e8280-c9bd-478c-a4bf-71813c89270a",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+    "old_status": "ACTIVE",
+    "new_status": "ACTIVE",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Off-platform disbursement recorded: ₹100000.00. NEFT Ref #UTR8819201 transferred to NGO bank account for equipment procurement.",
+    "metadata": {
+      "notes": "NEFT Ref #UTR8819201 transferred to NGO bank account for equipment procurement.",
+      "total_reported": "100000.00",
+      "disbursed_increment": "100000.00"
+    },
+    "created_at": "2026-10-09T08:56:03.725Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "3d4512ca-1454-496c-88fb-075166f4673d",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "old_status": "PENDING_NGO_REVIEW",
+    "new_status": "REJECTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Support request rejected by NGO: Co-funding terms do not align with current project charter.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:06:49.409Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "5301d73c-9910-4bfe-99f1-f5f7e5146c11",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "old_status": "PENDING_REVIEW",
+    "new_status": "OPEN_FOR_CSR",
+    "reviewed_by": [
+      "admin1@demo.local"
+    ],
+    "review_notes": "Requirement approved and set to OPEN_FOR_CSR.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:06:34.103Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "5adbd927-41f8-4b1a-8c87-80d7a70fe0ee",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "cec764a5-a4e9-455f-b653-67c524999c81",
+    "old_status": "REVISION_REQUESTED",
+    "new_status": "SUBMITTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Evidence submitted for milestone #1.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:07:39.800Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "64b897c5-22db-4752-a670-fa3bf27dc834",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "f08d8f1a-77da-4a45-8313-0cc39a622f97",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "NGO submitted proposal for platform verification.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:22:28.075Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "707909d5-6e38-49df-adfc-fef205d45eec",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "c076446b-ede4-4b69-a980-02b8d055fdcb",
+    "old_status": "PENDING",
+    "new_status": "SUBMITTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Evidence submitted for milestone #1.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:46.394Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "726c47f2-2505-4166-ba2d-de8d81d3ab7e",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "c076446b-ede4-4b69-a980-02b8d055fdcb",
+    "old_status": "SUBMITTED",
+    "new_status": "REVISION_REQUESTED",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Revision requested for milestone #1: Please attach vendor warranty certificates alongside invoices.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:52.300Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "83e522c7-7aaa-4bd4-8038-b862b923d4b1",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "old_status": "PENDING_NGO_REVIEW",
+    "new_status": "ACCEPTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "NGO accepted support request from 'KK Industries Ltd'. Partnership code: CSR-PT-20261009-B6CFAE.",
+    "metadata": {
+      "partnership_id": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+      "partnership_code": "CSR-PT-20261009-B6CFAE"
+    },
+    "created_at": "2026-10-09T09:06:58.114Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "947c50a6-42f0-43b8-b6b8-577facfa8867",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "NGO submitted proposal for platform verification.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:06:34.088Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "986e272a-552a-4502-8348-edc8b5cc0ea5",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "c076446b-ede4-4b69-a980-02b8d055fdcb",
+    "old_status": "REVISION_REQUESTED",
+    "new_status": "SUBMITTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Evidence submitted for milestone #1.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:52.368Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "9f804fb8-1294-48ae-8576-f036bd160e2f",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "old_status": "PENDING_NGO_REVIEW",
+    "new_status": "ACCEPTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "NGO accepted support request from 'KK Industries Ltd'. Partnership code: CSR-PT-20261009-210CF6.",
+    "metadata": {
+      "partnership_id": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+      "partnership_code": "CSR-PT-20261009-210CF6"
+    },
+    "created_at": "2026-10-09T08:55:25.283Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "b0cc084c-e270-4d08-a5e6-4bac37ab95cf",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "eac20de5-916e-42b0-8307-00a6da6beeba",
+    "old_status": "OPEN_FOR_CSR",
+    "new_status": "OPEN_FOR_CSR",
+    "reviewed_by": [
+      "company2@demo.local"
+    ],
+    "review_notes": "Support request 53fb1d7e-050e-4724-8230-167d44565d6c submitted by company 'ABC Corp'.",
+    "metadata": {
+      "proposed_funding": "100000.00",
+      "support_request_id": "53fb1d7e-050e-4724-8230-167d44565d6c"
+    },
+    "created_at": "2026-10-09T09:06:43.909Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "b3206efc-418e-45a6-9006-b335e9a19f12",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "cec764a5-a4e9-455f-b653-67c524999c81",
+    "old_status": "PENDING",
+    "new_status": "SUBMITTED",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Evidence submitted for milestone #1.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:07:33.468Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "be3f2ed0-f903-47a8-b4f3-257088345a3d",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "cec764a5-a4e9-455f-b653-67c524999c81",
+    "old_status": "SUBMITTED",
+    "new_status": "VERIFIED",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Milestone #1 verified and completed. All warranty certificates and hardware serial numbers verified.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:07:47.702Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "c805a0fd-770e-44b9-b918-e89588508b97",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "old_status": "OPEN_FOR_CSR",
+    "new_status": "OPEN_FOR_CSR",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Support request 01311cd1-1f7d-4e08-b38b-1c91daddc034 submitted by company 'KK Industries Ltd'.",
+    "metadata": {
+      "proposed_funding": "200000.00",
+      "support_request_id": "01311cd1-1f7d-4e08-b38b-1c91daddc034"
+    },
+    "created_at": "2026-10-09T08:55:03.876Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "c9393ed6-c89c-4c2b-b2d3-7c98e2183dea",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "b275fa64-7165-41fd-afff-f98fafdbeef2",
+    "old_status": null,
+    "new_status": "PENDING",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Milestone #2 created for partnership CSR-PT-20261009-210CF6.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:46.275Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "ccb4dfc6-47b3-43de-adcd-9ba884cdb099",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "cec764a5-a4e9-455f-b653-67c524999c81",
+    "old_status": null,
+    "new_status": "PENDING",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Milestone #1 created for partnership CSR-PT-20261009-B6CFAE.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:07:33.274Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "d938da34-5af9-4c94-bd84-bf88ebb52881",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "17d29929-a404-48e1-ac92-1250c9310de2",
+    "old_status": null,
+    "new_status": "PENDING",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "Milestone #2 created for partnership CSR-PT-20261009-B6CFAE.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:07:33.374Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "e0c639c1-78d0-4abb-9877-a63c46db8b26",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "5447ec93-4e45-4346-9472-3ec338b6c7b9",
+    "old_status": "PENDING_MOU",
+    "new_status": "ACTIVE",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Partnership activated into ground execution.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:35.851Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "e60b4ddb-0f00-44f3-a102-713bab8f685f",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "old_status": "DRAFT",
+    "new_status": "PENDING_REVIEW",
+    "reviewed_by": [
+      "ngo1@demo.local"
+    ],
+    "review_notes": "NGO submitted proposal for platform verification.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:54:59.034Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "e7071b6b-8d26-4f12-ab40-83d299db5b69",
+  "fields": {
+    "entity_type": "PARTNERSHIP",
+    "entity_id": "4576dbe7-cd0f-411f-9baa-0e83d2578fcc",
+    "old_status": null,
+    "new_status": "PENDING_MOU",
+    "reviewed_by": null,
+    "review_notes": "Partnership formed from support request 49a0dfe6-419a-461f-b37d-bbfdedbe35ff.",
+    "metadata": {
+      "agreed_funding": "200000.00",
+      "partnership_code": "CSR-PT-20261009-B6CFAE"
+    },
+    "created_at": "2026-10-09T09:06:58.112Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "f5ebae5e-ee09-41e5-84fc-4b5cb25b64cf",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "cec764a5-a4e9-455f-b653-67c524999c81",
+    "old_status": "SUBMITTED",
+    "new_status": "REVISION_REQUESTED",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Revision requested for milestone #1: Please attach vendor warranty certificates alongside invoices.",
+    "metadata": {},
+    "created_at": "2026-10-09T09:07:39.738Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "f862b200-cfe4-41a6-aef9-886a91b74658",
+  "fields": {
+    "entity_type": "MILESTONE",
+    "entity_id": "c076446b-ede4-4b69-a980-02b8d055fdcb",
+    "old_status": "SUBMITTED",
+    "new_status": "VERIFIED",
+    "reviewed_by": [
+      "company1@demo.local"
+    ],
+    "review_notes": "Milestone #1 verified and completed. All warranty certificates and hardware serial numbers verified.",
+    "metadata": {},
+    "created_at": "2026-10-09T08:55:57.819Z"
+  }
+},
+{
+  "model": "csr.csrverificationhistory",
+  "pk": "fdd2be70-234b-4eea-843c-1b8a2f7dc95c",
+  "fields": {
+    "entity_type": "REQUIREMENT",
+    "entity_id": "3641aa9d-3215-44af-ad0a-577f9fef09e1",
+    "old_status": "OPEN_FOR_CSR",
+    "new_status": "OPEN_FOR_CSR",
+    "reviewed_by": [
+      "company2@demo.local"
+    ],
+    "review_notes": "Support request 3c8a6ddf-f1a5-4280-9b94-e0e91908707b submitted by company 'ABC Corp'.",
+    "metadata": {
+      "proposed_funding": "100000.00",
+      "support_request_id": "3c8a6ddf-f1a5-4280-9b94-e0e91908707b"
+    },
+    "created_at": "2026-10-09T08:55:08.325Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "149dea21-06ca-40e7-ab9c-e43c08c43f8b",
+  "fields": {
+    "ticket_number": "GRV-202609-00002",
+    "user": [
+      "donor1@demo.local"
+    ],
+    "title": "Payment Failed but Deducted",
+    "description": "I tried to donate $50 but it failed on the site. However my bank was charged.",
+    "category": "DONATION_PAYMENT",
+    "priority": "HIGH",
+    "status": "IN_REVIEW",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": [
+      "admin1@demo.local"
+    ],
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.548Z",
+    "updated_at": "2026-09-27T16:16:38.548Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "15d0c66d-5613-44e9-a138-6a418393ff44",
+  "fields": {
+    "ticket_number": "GRV-202609-00008",
+    "user": [
+      "company2@demo.local"
+    ],
+    "title": "Incorrect NGO matched",
+    "description": "Our CSR mandate specifies healthcare, but we were matched with an animal shelter.",
+    "category": "OTHER",
+    "priority": "MEDIUM",
+    "status": "REJECTED",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": [
+      "admin1@demo.local"
+    ],
+    "resolution_summary": "The animal shelter is registered under a mixed mandate.",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.557Z",
+    "updated_at": "2026-09-27T16:16:38.557Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "24c756c9-54ab-4795-b285-9d8d58d6cce9",
+  "fields": {
+    "ticket_number": "GRV-202609-00004",
+    "user": [
+      "ngo1@demo.local"
+    ],
+    "title": "Campaign Approval Delayed",
+    "description": "We submitted our school rebuilding campaign 5 days ago. No update yet.",
+    "category": "OTHER",
+    "priority": "HIGH",
+    "status": "RESOLVED",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": [
+      "admin2@demo.local"
+    ],
+    "resolution_summary": "Campaign reviewed and approved.",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.552Z",
+    "updated_at": "2026-09-27T16:16:38.552Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "3251a4b6-1bf3-4a3e-8740-c6842ecff7e8",
+  "fields": {
+    "ticket_number": "GRV-202610-00001",
+    "user": [
+      "donor1@demo.local"
+    ],
+    "title": "Query regarding 80G certificate generation timeline",
+    "description": "I would like to know when Form 10BE will be filed for my recent contribution.",
+    "category": "RECEIPT_80G",
+    "priority": "MEDIUM",
+    "status": "OPEN",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": null,
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-10-09T10:18:36.264Z",
+    "updated_at": "2026-10-09T10:18:36.264Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "46b10a3e-ba7c-49ab-93f7-41be2966a962",
+  "fields": {
+    "ticket_number": "GRV-202609-00001",
+    "user": [
+      "kk@gmail.com"
+    ],
+    "title": "kamlesh",
+    "description": "not having described",
+    "category": "DONATION_PAYMENT",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": null,
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-09-27T06:22:12.737Z",
+    "updated_at": "2026-09-27T06:22:12.737Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "5868d406-cd6e-4619-877c-3190ce0f6b39",
+  "fields": {
+    "ticket_number": "GRV-202609-00009",
+    "user": [
+      "donor1@demo.local"
+    ],
+    "title": "Profile Update Bug",
+    "description": "Cannot save my new address in profile settings.",
+    "category": "TECHNICAL_SUPPORT",
+    "priority": "LOW",
+    "status": "IN_REVIEW",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": null,
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.559Z",
+    "updated_at": "2026-10-07T17:18:08.042Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "60ff4e4b-a86d-4d6d-a269-e9e3eb9f694b",
+  "fields": {
+    "ticket_number": "GRV-202609-00003",
+    "user": [
+      "donor2@demo.local"
+    ],
+    "title": "Tax Receipt Missing",
+    "description": "It has been 2 weeks since my donation and I have not received an 80G receipt.",
+    "category": "RECEIPT_80G",
+    "priority": "MEDIUM",
+    "status": "OPEN",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": null,
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.550Z",
+    "updated_at": "2026-09-27T16:16:38.550Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "6c19cba5-22de-46e0-a1f5-304105094bf3",
+  "fields": {
+    "ticket_number": "GRV-202609-00010",
+    "user": [
+      "chaudharykamlesh185@gmail.com"
+    ],
+    "title": "heloo",
+    "description": "check i t for my issue have inside inn",
+    "category": "RECEIPT_80G",
+    "priority": "URGENT",
+    "status": "CLOSED",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "grievance_attachments/Screenshot_2026-09-28_at_8.14.08PM.png",
+    "assigned_to": null,
+    "resolution_summary": "good job",
+    "resolved_at": "2026-09-29T10:52:54.120Z",
+    "created_at": "2026-09-29T10:03:17.857Z",
+    "updated_at": "2026-09-29T10:53:31.323Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "84082cb8-ec20-4473-8bc3-be0ff5bd8ca4",
+  "fields": {
+    "ticket_number": "GRV-202609-00006",
+    "user": [
+      "donor3@demo.local"
+    ],
+    "title": "App crashed during login",
+    "description": "When I open the app on iOS 16, it crashes immediately.",
+    "category": "TECHNICAL_SUPPORT",
+    "priority": "LOW",
+    "status": "CLOSED",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": [
+      "admin1@demo.local"
+    ],
+    "resolution_summary": "Fixed in v2.1 update.",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.555Z",
+    "updated_at": "2026-09-27T16:16:38.555Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "8eaa22be-359a-4a94-b59f-a6e3ec24d6ec",
+  "fields": {
+    "ticket_number": "GRV-202610-00002",
+    "user": [
+      "company1@demo.local"
+    ],
+    "title": "Corporate CSR tax deduction documentation request",
+    "description": "Requesting official quarterly CSR milestone compliance summary.",
+    "category": "CSR_PARTNERSHIP_DISPUTE",
+    "priority": "HIGH",
+    "status": "IN_REVIEW",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": [
+      "admin1@demo.local"
+    ],
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-10-09T10:18:48.122Z",
+    "updated_at": "2026-10-09T10:20:32.232Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "b2b30c30-382f-4c3b-aff0-d38dbca8b4df",
+  "fields": {
+    "ticket_number": "GRV-202609-00005",
+    "user": [
+      "company1@demo.local"
+    ],
+    "title": "CSR Partnership Document Upload Issue",
+    "description": "The portal throws a 500 error when I upload our CSR MoU PDF.",
+    "category": "TECHNICAL_SUPPORT",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": null,
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.553Z",
+    "updated_at": "2026-09-27T16:16:38.553Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "b5244b6f-4b4a-4772-943b-8c480e8f93db",
+  "fields": {
+    "ticket_number": "GRV-202610-00003",
+    "user": [
+      "donor1@demo.local"
+    ],
+    "title": "General donation inquiry",
+    "description": "Clarification on campaign allocation.",
+    "category": "DONATION_PAYMENT",
+    "priority": "LOW",
+    "status": "RESOLVED",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": [
+      "admin1@demo.local"
+    ],
+    "resolution_summary": "Funds verified and allocated to school water pipeline.",
+    "resolved_at": "2026-10-09T15:31:34.497Z",
+    "created_at": "2026-10-09T15:30:30.462Z",
+    "updated_at": "2026-10-09T15:31:34.497Z"
+  }
+},
+{
+  "model": "grievances.grievanceticket",
+  "pk": "def98d95-d2db-4ad9-8fda-07f1dda389c0",
+  "fields": {
+    "ticket_number": "GRV-202609-00007",
+    "user": [
+      "ngo2@demo.local"
+    ],
+    "title": "Harassment by donor",
+    "description": "A donor has been using abusive language in the comments section of our campaign.",
+    "category": "NGO_CONDUCT",
+    "priority": "URGENT",
+    "status": "IN_REVIEW",
+    "donation": null,
+    "campaign": null,
+    "partnership": null,
+    "target_ngo": null,
+    "attachment": "",
+    "assigned_to": [
+      "admin2@demo.local"
+    ],
+    "resolution_summary": "",
+    "resolved_at": null,
+    "created_at": "2026-09-27T16:16:38.556Z",
+    "updated_at": "2026-09-27T16:16:38.556Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "21d370f6-810a-465a-b4e7-9cce8f5b1d55",
+  "fields": {
+    "ticket": "149dea21-06ca-40e7-ab9c-e43c08c43f8b",
+    "author": [
+      "admin1@demo.local"
+    ],
+    "message": "Payment gateway confirmed failure. Processing refund now.",
+    "attachment": "",
+    "is_internal_note": true,
+    "created_at": "2026-09-27T16:16:38.561Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "410e887a-dcf2-4cc4-a697-4b03d0a7b901",
+  "fields": {
+    "ticket": "46b10a3e-ba7c-49ab-93f7-41be2966a962",
+    "author": [
+      "kk@gmail.com"
+    ],
+    "message": "how are you bro",
+    "attachment": "",
+    "is_internal_note": false,
+    "created_at": "2026-09-29T04:36:24.948Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "412cbbbf-293b-4612-8d59-0c28533edc2c",
+  "fields": {
+    "ticket": "def98d95-d2db-4ad9-8fda-07f1dda389c0",
+    "author": [
+      "admin2@demo.local"
+    ],
+    "message": "We take this very seriously. We will moderate the comments and warn the user.",
+    "attachment": "",
+    "is_internal_note": false,
+    "created_at": "2026-09-27T16:16:38.562Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "62c3591e-e7a0-4830-9c02-b4d3caf01e50",
+  "fields": {
+    "ticket": "149dea21-06ca-40e7-ab9c-e43c08c43f8b",
+    "author": [
+      "admin1@demo.local"
+    ],
+    "message": "We are looking into the payment gateway logs. Please share your transaction ID.",
+    "attachment": "",
+    "is_internal_note": false,
+    "created_at": "2026-09-27T16:16:38.560Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "65a66afe-5f87-49fb-ad7d-d243f8e9097b",
+  "fields": {
+    "ticket": "46b10a3e-ba7c-49ab-93f7-41be2966a962",
+    "author": [
+      "kk@gmail.com"
+    ],
+    "message": "kk",
+    "attachment": "",
+    "is_internal_note": false,
+    "created_at": "2026-09-29T04:36:07.407Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "68bb5fa8-4c7a-4600-a4ce-152c28c289bd",
+  "fields": {
+    "ticket": "def98d95-d2db-4ad9-8fda-07f1dda389c0",
+    "author": [
+      "admin2@demo.local"
+    ],
+    "message": "User account suspended for 7 days.",
+    "attachment": "",
+    "is_internal_note": true,
+    "created_at": "2026-09-27T16:16:38.563Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "b16d84ee-ad71-4d89-9d41-269c2cd2597e",
+  "fields": {
+    "ticket": "149dea21-06ca-40e7-ab9c-e43c08c43f8b",
+    "author": [
+      "donor1@demo.local"
+    ],
+    "message": "My transaction ID is TXN998877.",
+    "attachment": "",
+    "is_internal_note": false,
+    "created_at": "2026-09-27T16:16:38.561Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "c6601adf-7e73-4b8e-84c5-5260a45d9451",
+  "fields": {
+    "ticket": "3251a4b6-1bf3-4a3e-8740-c6842ecff7e8",
+    "author": [
+      "donor1@demo.local"
+    ],
+    "message": "Adding additional context: Donation made via UPI.",
+    "attachment": "",
+    "is_internal_note": false,
+    "created_at": "2026-10-09T10:18:40.944Z"
+  }
+},
+{
+  "model": "grievances.grievanceresponse",
+  "pk": "f3417515-ade5-41f9-92f0-fbf683ca7beb",
+  "fields": {
+    "ticket": "24c756c9-54ab-4795-b285-9d8d58d6cce9",
+    "author": [
+      "admin2@demo.local"
+    ],
+    "message": "Apologies for the delay. Your campaign has now been approved.",
+    "attachment": "",
+    "is_internal_note": false,
+    "created_at": "2026-09-27T16:16:38.562Z"
+  }
+}
+]
