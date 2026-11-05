@@ -120,14 +120,20 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class UserRegisterSerializer(serializers.ModelSerializer):
-    """Serializer handling User registration with password validation and role restrictions."""
+    """Serializer handling User registration with password validation, role restrictions, and initial profile creation."""
 
     password = serializers.CharField(write_only=True, min_length=8, style={'input_type': 'password'})
     password_confirm = serializers.CharField(write_only=True, style={'input_type': 'password'})
+    organization_name = serializers.CharField(required=False, allow_blank=True, write_only=True)
+    registration_number = serializers.CharField(required=False, allow_blank=True, write_only=True)
+    cin_number = serializers.CharField(required=False, allow_blank=True, write_only=True)
 
     class Meta:
         model = User
-        fields = ('email', 'full_name', 'phone', 'password', 'password_confirm', 'role')
+        fields = (
+            'email', 'full_name', 'phone', 'password', 'password_confirm', 'role',
+            'organization_name', 'registration_number', 'cin_number'
+        )
 
     def validate_email(self, value):
         normalized_email = value.lower().strip()
@@ -148,9 +154,49 @@ class UserRegisterSerializer(serializers.ModelSerializer):
         return attrs
 
     def create(self, validated_data):
-        validated_data.pop('password_confirm')
+        from django.db import transaction
+
+        validated_data.pop('password_confirm', None)
         password = validated_data.pop('password')
-        return User.objects.create_user(password=password, **validated_data)
+        org_name = validated_data.pop('organization_name', '').strip()
+        reg_num = validated_data.pop('registration_number', '').strip()
+        cin_num = validated_data.pop('cin_number', '').strip() or reg_num
+
+        with transaction.atomic():
+            user = User.objects.create_user(password=password, **validated_data)
+
+            if user.role == User.Role.COMPANY:
+                from csr.models import (
+                    CompanyProfile,
+                    CompanyVerificationStatus,
+                    CompanyCSRPreference,
+                )
+                from csr.serializers.company_serializers import CIN_REGEX
+                company_name = org_name or user.full_name or user.email.split('@')[0]
+                valid_cin = None
+                if cin_num and CIN_REGEX.match(cin_num.upper()):
+                    if not CompanyProfile.objects.filter(cin_number__iexact=cin_num.upper()).exists():
+                        valid_cin = cin_num.upper()
+
+                company = CompanyProfile.objects.create(
+                    user=user,
+                    company_name=company_name,
+                    legal_name=company_name,
+                    cin_number=valid_cin,
+                    pan_number='',
+                    contact_person_name=user.full_name or 'Corporate Representative',
+                    contact_person_designation='Corporate Representative',
+                    contact_email=user.email,
+                    contact_phone=user.phone or '',
+                    registered_address='',
+                    city='',
+                    state='',
+                    pincode='',
+                    verification_status=CompanyVerificationStatus.DRAFT,
+                )
+                CompanyCSRPreference.objects.get_or_create(company=company)
+
+        return user
 
 
 class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):

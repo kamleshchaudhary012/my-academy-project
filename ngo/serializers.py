@@ -106,12 +106,24 @@ class NGOLegalInfoSerializer(serializers.ModelSerializer):
         read_only_fields = ['id', 'is_csr_eligible', 'created_at', 'updated_at']
 
     def to_internal_value(self, data):
-        if 'pan_number' in data and isinstance(data['pan_number'], str):
+        if isinstance(data, dict):
             data = data.copy()
-            data['pan_number'] = data['pan_number'].strip().upper()
-        if 'csr_registration_number' in data and isinstance(data['csr_registration_number'], str):
-            data = data.copy()
-            data['csr_registration_number'] = data['csr_registration_number'].strip().upper()
+            # Normalize empty strings to None for all optional DateFields so DRF does not raise format errors
+            date_fields = [
+                'ten_23c_validity',
+                'twelve_a_validity',
+                'eighty_g_validity',
+                'fcra_validity',
+                'csr_registration_date',
+            ]
+            for f in date_fields:
+                if f in data and (data[f] == '' or data[f] is None):
+                    data[f] = None
+
+            if 'pan_number' in data and isinstance(data['pan_number'], str):
+                data['pan_number'] = data['pan_number'].strip().upper()
+            if 'csr_registration_number' in data and isinstance(data['csr_registration_number'], str):
+                data['csr_registration_number'] = data['csr_registration_number'].strip().upper()
         return super().to_internal_value(data)
 
     def validate_pan_number(self, value):

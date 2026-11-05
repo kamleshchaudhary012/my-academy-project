@@ -15,7 +15,7 @@ Key Guarantees:
 from decimal import Decimal
 from django.core.exceptions import ValidationError as DjangoValidationError
 from django.db import transaction
-from django.db.models import Sum
+from django.db.models import Q, Sum
 from rest_framework import generics, status, filters
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -164,6 +164,14 @@ class CompanyVerificationDocumentView(APIView):
             company = attach_company_document(request.user, uploaded_file)
             serializer = CompanyProfileReadSerializer(company)
             return Response(serializer.data, status=status.HTTP_200_OK)
+        except CSRNotFoundError:
+            return Response(
+                {
+                    'detail': 'Please save your corporate profile details before uploading statutory verification documents.',
+                    'code': 'NO_COMPANY_PROFILE',
+                },
+                status=status.HTTP_400_BAD_REQUEST,
+            )
         except CSRServiceError as exc:
             return handle_csr_service_error(exc)
 
@@ -266,27 +274,37 @@ class CompanyDashboardView(APIView):
         try:
             partnerships = list_partnerships_for_user(request.user)
 
-            committed_total = Decimal('0.00')
-            disbursed_total = Decimal('0.00')
-            for p in partnerships:
-                if p.agreed_funding_amount:
-                    committed_total += p.agreed_funding_amount
-                if p.disbursed_amount_reported:
-                    disbursed_total += p.disbursed_amount_reported
+            # DB-level aggregation avoids loading all partnership objects into memory
+            # and replaces three separate filter+aggregate queries with one.
+            financial_agg = partnerships.aggregate(
+                committed_total=Sum('agreed_funding_amount'),
+                disbursed_total=Sum('disbursed_amount_reported'),
+            )
+            committed_total = financial_agg['committed_total'] or Decimal('0.00')
+            disbursed_total = financial_agg['disbursed_total'] or Decimal('0.00')
 
-            partnership_ids = [p.id for p in partnerships]
+            partnership_ids = list(partnerships.values_list('id', flat=True))
             disb_qs = CSRDisbursement.objects.filter(partnership_id__in=partnership_ids).exclude(
                 review_status=CSRDisbursementReviewStatus.REJECTED
             )
-            acknowledged_total = disb_qs.filter(
-                ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.ACKNOWLEDGED
-            ).aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
-            disputed_total = disb_qs.filter(
-                ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.DISPUTED
-            ).aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
-            pending_ack_total = disb_qs.filter(
-                ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.PENDING_ACKNOWLEDGEMENT
-            ).aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
+            # Single aggregate call with conditional sums replaces three separate queries
+            disb_agg = disb_qs.aggregate(
+                acknowledged=Sum(
+                    'amount',
+                    filter=Q(ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.ACKNOWLEDGED),
+                ),
+                disputed=Sum(
+                    'amount',
+                    filter=Q(ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.DISPUTED),
+                ),
+                pending_ack=Sum(
+                    'amount',
+                    filter=Q(ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.PENDING_ACKNOWLEDGEMENT),
+                ),
+            )
+            acknowledged_total = disb_agg['acknowledged'] or Decimal('0.00')
+            disputed_total = disb_agg['disputed'] or Decimal('0.00')
+            pending_ack_total = disb_agg['pending_ack'] or Decimal('0.00')
             remaining_committed_balance = max(Decimal('0.00'), committed_total - acknowledged_total)
 
             active_partnerships_count = partnerships.filter(

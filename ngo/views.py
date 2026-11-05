@@ -80,7 +80,11 @@ class NGOProfileMeView(APIView):
     permission_classes = [IsAuthenticated, IsNgoOwner]
 
     def get(self, request):
-        profile = NGOProfile.objects.filter(user=request.user).first()
+        # select_related prefetches user and verification in one SQL JOIN,
+        # avoiding extra queries when the serializer accesses related fields.
+        profile = NGOProfile.objects.select_related(
+            'user', 'verification',
+        ).filter(user=request.user).first()
         if not profile:
             return Response(
                 {'detail': 'NGO profile not found.'},
@@ -201,7 +205,7 @@ class NGOAddressMeView(APIView):
     permission_classes = [IsAuthenticated, IsNgoOwner]
 
     def get(self, request):
-        profile = NGOProfile.objects.filter(user=request.user).first()
+        profile = NGOProfile.objects.select_related('address').filter(user=request.user).first()
         if not profile:
             return Response(
                 {'detail': 'NGO profile not found.'},
@@ -277,7 +281,7 @@ class NGOLegalMeView(APIView):
     permission_classes = [IsAuthenticated, IsNgoOwner]
 
     def get(self, request):
-        profile = NGOProfile.objects.filter(user=request.user).first()
+        profile = NGOProfile.objects.select_related('legal_info').filter(user=request.user).first()
         if not profile:
             return Response(
                 {'detail': 'NGO profile not found.'},
@@ -353,7 +357,7 @@ class NGOBankMeView(APIView):
     permission_classes = [IsAuthenticated, IsNgoOwner]
 
     def get(self, request):
-        profile = NGOProfile.objects.filter(user=request.user).first()
+        profile = NGOProfile.objects.select_related('bank_info').filter(user=request.user).first()
         if not profile:
             return Response(
                 {'detail': 'NGO profile not found.'},

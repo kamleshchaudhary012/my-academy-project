@@ -32,7 +32,7 @@ Security Invariants Enforced:
 from decimal import Decimal
 from django.core.exceptions import ValidationError as DjangoValidationError
 from django.db import transaction
-from django.db.models import Sum
+from django.db.models import Q, Sum
 from rest_framework import generics, status, filters
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -143,26 +143,36 @@ class NgoDashboardView(APIView):
                 status__in=[CSRPartnershipStatus.ACTIVE, CSRPartnershipStatus.PENDING_MOU]
             ).count()
 
-            total_funding = sum(
-                (p.agreed_funding_amount for p in partnerships if p.agreed_funding_amount),
-                Decimal('0.00')
+            # DB-level aggregation avoids loading all partnership objects into memory
+            funding_agg = partnerships.aggregate(
+                total_funding=Sum('agreed_funding_amount'),
             )
+            total_funding = funding_agg['total_funding'] or Decimal('0.00')
 
-            # Financial metrics separation
-            partner_ids = [p.id for p in partnerships]
+            # Financial metrics separation — single conditional-sum query instead of four
+            partner_ids = list(partnerships.values_list('id', flat=True))
             disb_qs = CSRDisbursement.objects.filter(partnership_id__in=partner_ids).exclude(
                 review_status=CSRDisbursementReviewStatus.REJECTED
             )
-            total_reported = disb_qs.aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
-            total_acknowledged = disb_qs.filter(
-                ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.ACKNOWLEDGED
-            ).aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
-            total_disputed = disb_qs.filter(
-                ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.DISPUTED
-            ).aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
-            total_pending_ack = disb_qs.filter(
-                ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.PENDING_ACKNOWLEDGEMENT
-            ).aggregate(t=Sum('amount'))['t'] or Decimal('0.00')
+            disb_agg = disb_qs.aggregate(
+                total_reported=Sum('amount'),
+                total_acknowledged=Sum(
+                    'amount',
+                    filter=Q(ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.ACKNOWLEDGED),
+                ),
+                total_disputed=Sum(
+                    'amount',
+                    filter=Q(ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.DISPUTED),
+                ),
+                total_pending_ack=Sum(
+                    'amount',
+                    filter=Q(ngo_acknowledgement_status=CSRNgoAcknowledgementStatus.PENDING_ACKNOWLEDGEMENT),
+                ),
+            )
+            total_reported = disb_agg['total_reported'] or Decimal('0.00')
+            total_acknowledged = disb_agg['total_acknowledged'] or Decimal('0.00')
+            total_disputed = disb_agg['total_disputed'] or Decimal('0.00')
+            total_pending_ack = disb_agg['total_pending_ack'] or Decimal('0.00')
             remaining_funding = max(Decimal('0.00'), total_funding - total_acknowledged)
 
             # Pending milestone deliverables
